@@ -19,7 +19,7 @@ namespace NZF_DAL
 
         public DataAccesBase()
         {
-            globalDegiskenler.gblConStrDPM = "Persist Security Info=False;User ID=u8530928_user802;Password=MTiq61N2;Initial Catalog=u8530928_360ofse;Data Source=94.73.148.3";
+            globalDegiskenler.gblConStrDPM = "Persist Security Info=False;User ID=*******;Password=*****;Initial Catalog=****;Data Source=****";
             gblSqlConn = new System.Data.SqlClient.SqlConnection(globalDegiskenler.gblConStrDPM);
             gblSqlAdap = new System.Data.SqlClient.SqlDataAdapter();
             gblSqlAdap.SelectCommand = new System.Data.SqlClient.SqlCommand();
