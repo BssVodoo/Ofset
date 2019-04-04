@@ -1,0 +1,62 @@
+﻿@model IEnumerable<_360Ofset.Models.KullaniciDB>
+
+@{
+    ViewBag.Title = "Kullanici Listesi";
+    Layout = "~/Views/Shared/_Alayout.cshtml";
+}
+
+
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Eposta)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sifre)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Eposta)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sifre)
+        </td>
+        <td>
+            <input type="button" value="Sil" data-id="@item.ID" class="delete-row btn btn-danger" />
+        </td>
+    </tr>
+}
+
+</table>
+<script type="text/javascript" src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".delete-row").click(function () {
+            var id = $(this).attr("data-id");
+            var closestTR = $(this).closest("tr");
+            var confirmDelete = confirm('Kullanıcı Numara\'si' + id + ' olan kayıdı silmek istediğinizden emin misiniz?');
+            if (confirmDelete) {
+                $.ajax({
+                    url: '/Admin/KulSil/' + id,
+                    type: 'POST',
+                    success:function(result) {
+                        if (result == true) {
+                            closestTR.fadeOut(1000, function() {
+                                closestTR.remove();
+                            });
+                        }
+                        else alert("Silme işlemi sırasında hata oluştu");
+                    }
+                });
+            }
+
+        });
+
+    });
+</script>

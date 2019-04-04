@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Refereanslar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<br />
+<br />
+
+<div class="sixteen columns ">
+    <div class="stunning-text-wrapper">
+        <h1 class="stunning-text-title"> Referanslar</h1> 
+        <div class="stunning-text-caption">
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+</div>
+<br /><br />
+<div style="margin-top:20px;margin-left:10px; height:auto; width:930px">
+
+    @foreach (var item in ViewBag.Refe)
+    {
+            <img src="@item.RefResim" alt="" />
+    }
+</div>

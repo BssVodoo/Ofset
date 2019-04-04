@@ -1,0 +1,2803 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\burak.sahin\Desktop\Pub\360ofset</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>12/24/2018 10:59:44</publishTime>
+    </File>
+    <File Include="bin/360Ofset.dll">
+      <publishTime>01/04/2019 15:39:17</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/22/2013 08:43:40</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>12/25/2018 10:41:18</publishTime>
+    </File>
+    <File Include="bin/Dal.dll">
+      <publishTime>01/04/2019 15:11:34</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>03/02/2015 09:32:26</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>03/02/2015 09:32:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>12/07/2015 19:04:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>03/10/2016 14:26:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>03/09/2016 12:00:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>03/09/2016 11:57:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>04/03/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>04/03/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>04/03/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>02/13/2015 13:16:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>02/13/2015 13:16:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>02/13/2015 13:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>02/13/2015 13:16:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>02/13/2015 13:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>02/13/2015 13:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>02/13/2015 13:16:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>02/13/2015 13:16:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>02/13/2015 13:16:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/23/2012 15:23:58</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2014 20:33:56</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/27/2012 13:00:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 04:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 04:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>09/10/2013 17:28:38</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>01/02/2019 15:58:06</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>12/24/2018 10:59:25</publishTime>
+    </File>
+    <File Include="Content/firmaya özel ajanda.JPG">
+      <publishTime>12/24/2018 17:02:32</publishTime>
+    </File>
+    <File Include="Content/font-awesome.min.css">
+      <publishTime>01/30/2018 06:10:36</publishTime>
+    </File>
+    <File Include="Content/Geri_DonusumluGida_Ambalajlari.jpg">
+      <publishTime>12/24/2018 17:01:17</publishTime>
+    </File>
+    <File Include="Content/Logo Ofset.png">
+      <publishTime>01/03/2019 13:35:32</publishTime>
+    </File>
+    <File Include="Content/logomsu.png">
+      <publishTime>12/25/2018 10:00:56</publishTime>
+    </File>
+    <File Include="Content/metisMenu.min.css">
+      <publishTime>01/30/2018 06:10:36</publishTime>
+    </File>
+    <File Include="Content/morris.css">
+      <publishTime>01/30/2018 06:10:36</publishTime>
+    </File>
+    <File Include="Content/newlogo.png">
+      <publishTime>01/03/2019 13:35:32</publishTime>
+    </File>
+    <File Include="Content/sb-admin-2.css">
+      <publishTime>01/30/2018 06:10:36</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>01/02/2019 15:59:49</publishTime>
+    </File>
+    <File Include="Content/Up.css">
+      <publishTime>12/27/2018 10:53:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/plugins/jetpack/css/jetpack0899.css">
+      <publishTime>12/10/2018 18:10:02</publishTime>
+    </File>
+    <File Include="Content/wp-content/plugins/jetpack/modules/carousel/images/arrows-2x.png">
+      <publishTime>12/10/2018 18:10:02</publishTime>
+    </File>
+    <File Include="Content/wp-content/plugins/jetpack/modules/carousel/images/arrows.png">
+      <publishTime>12/10/2018 18:10:02</publishTime>
+    </File>
+    <File Include="Content/wp-content/plugins/jetpack/modules/carousel/images/carousel-sprite-2xe4da.png">
+      <publishTime>12/10/2018 18:10:02</publishTime>
+    </File>
+    <File Include="Content/wp-content/plugins/jetpack/modules/carousel/images/carousel-spritee4da.png">
+      <publishTime>12/10/2018 18:10:02</publishTime>
+    </File>
+    <File Include="Content/wp-content/plugins/jetpack/modules/shortcodes/images/collapse.png">
+      <publishTime>12/10/2018 18:10:03</publishTime>
+    </File>
+    <File Include="Content/wp-content/plugins/jetpack/modules/shortcodes/images/expand.png">
+      <publishTime>12/10/2018 18:10:03</publishTime>
+    </File>
+    <File Include="Content/wp-content/plugins/jetpack/modules/shortcodes/images/slide-nav.png">
+      <publishTime>12/10/2018 18:10:03</publishTime>
+    </File>
+    <File Include="Content/wp-content/plugins/jetpack/modules/shortcodes/img/slideshow-controls-2x.png">
+      <publishTime>12/10/2018 18:10:03</publishTime>
+    </File>
+    <File Include="Content/wp-content/plugins/jetpack/modules/shortcodes/img/slideshow-controls.png">
+      <publishTime>12/10/2018 18:10:03</publishTime>
+    </File>
+    <File Include="Content/wp-content/plugins/jetpack/modules/wpgrohoce52.js">
+      <publishTime>12/10/2018 18:10:03</publishTime>
+    </File>
+    <File Include="Content/wp-content/plugins/wp-whatsapp-chat/css/fonts/IcoMoon-free.ttf">
+      <publishTime>12/10/2018 14:32:19</publishTime>
+    </File>
+    <File Include="Content/wp-content/plugins/wp-whatsapp-chat/css/stylece52.css">
+      <publishTime>12/10/2018 14:32:19</publishTime>
+    </File>
+    <File Include="Content/wp-content/plugins/wpforms-lite/assets/css/wpforms-full6aad.css">
+      <publishTime>12/10/2018 18:10:06</publishTime>
+    </File>
+    <File Include="Content/wp-content/plugins/wpforms-lite/assets/js/jquery.validate.min24fc.js">
+      <publishTime>12/10/2018 18:10:06</publishTime>
+    </File>
+    <File Include="Content/wp-content/plugins/wpforms-lite/assets/js/wpforms6aad.js">
+      <publishTime>12/10/2018 18:10:06</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/flex-slider/bg_direction_nav_custom.png">
+      <publishTime>12/19/2017 10:40:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/gradient-bottom4-32px.png">
+      <publishTime>12/19/2017 10:35:19</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/gradient-top4-32px.png">
+      <publishTime>12/19/2017 10:35:19</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/gradient-vertical-6px.html">
+      <publishTime>01/03/2019 15:19:48</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/icon/dark/arrow4.png">
+      <publishTime>12/19/2017 10:41:46</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/icon/dark/author.png">
+      <publishTime>12/19/2017 10:41:46</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/icon/dark/calendar.png">
+      <publishTime>12/19/2017 10:41:46</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/icon/dark/comment.png">
+      <publishTime>12/19/2017 10:41:46</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/icon/dark/find-17px.png">
+      <publishTime>12/19/2017 10:41:46</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/icon/dark/link-small.png">
+      <publishTime>12/19/2017 10:41:46</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/icon/dark/minus-24px.png">
+      <publishTime>12/19/2017 10:41:47</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/icon/dark/navigation-20px.png">
+      <publishTime>12/19/2017 10:41:47</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/icon/dark/plus-24px.png">
+      <publishTime>12/19/2017 10:41:47</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/icon/dark/port-nav.png">
+      <publishTime>12/19/2017 10:41:47</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/icon/dark/quotes-18px.png">
+      <publishTime>12/19/2017 10:41:47</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/icon/dark/social/facebook.png">
+      <publishTime>12/19/2017 10:42:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/icon/dark/social/googleplus.png">
+      <publishTime>12/19/2017 10:42:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/icon/dark/social/twitter.png">
+      <publishTime>12/19/2017 10:42:37</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/icon/dark/stunning-text-bg.png">
+      <publishTime>12/19/2017 10:41:47</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/icon/dark/stunning-text-corner.png">
+      <publishTime>12/19/2017 10:41:47</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/icon/dark/tag.png">
+      <publishTime>12/19/2017 10:41:47</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/icon/dark/title-bg.png">
+      <publishTime>12/19/2017 10:41:47</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/icon/light/arrow4.png">
+      <publishTime>12/19/2017 10:41:48</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/icon/light/calendar.png">
+      <publishTime>12/19/2017 10:41:49</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/icon/light/comment.png">
+      <publishTime>12/19/2017 10:41:49</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/icon/light/find-17px.png">
+      <publishTime>12/19/2017 10:41:49</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/image-overlay-link.png">
+      <publishTime>12/19/2017 10:35:20</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/image-overlay-video.png">
+      <publishTime>12/19/2017 10:35:20</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/image-overlay.png">
+      <publishTime>12/19/2017 10:35:20</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/list/arrow.png">
+      <publishTime>12/19/2017 10:40:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/list/arrow2.png">
+      <publishTime>12/19/2017 10:40:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/list/arrow3.png">
+      <publishTime>12/19/2017 10:40:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/list/bullet.png">
+      <publishTime>12/19/2017 10:40:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/list/bullet2.png">
+      <publishTime>12/19/2017 10:40:37</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/list/bullet3.png">
+      <publishTime>12/19/2017 10:40:37</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/list/check.png">
+      <publishTime>12/19/2017 10:40:37</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/list/check2.png">
+      <publishTime>12/19/2017 10:40:37</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/list/check3.png">
+      <publishTime>12/19/2017 10:40:37</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/list/delete.png">
+      <publishTime>12/19/2017 10:40:37</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/list/delete2.png">
+      <publishTime>12/19/2017 10:40:37</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/list/delete3.png">
+      <publishTime>12/19/2017 10:40:37</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/loading.gif">
+      <publishTime>12/19/2017 10:35:20</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/nivo-slider/bg_direction_nav_custom.png">
+      <publishTime>12/19/2017 10:40:38</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/portfolio-overlay.png">
+      <publishTime>12/19/2017 10:35:20</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/dark_rounded/btnNext.png">
+      <publishTime>12/19/2017 10:41:52</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/dark_rounded/btnPrevious.png">
+      <publishTime>12/19/2017 10:41:52</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/dark_rounded/contentPattern.png">
+      <publishTime>12/19/2017 10:41:52</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/dark_rounded/loader.gif">
+      <publishTime>12/19/2017 10:41:53</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/dark_rounded/sprite.png">
+      <publishTime>12/19/2017 10:41:53</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/dark_square/btnNext.png">
+      <publishTime>12/19/2017 10:41:53</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/dark_square/btnPrevious.png">
+      <publishTime>12/19/2017 10:41:53</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/dark_square/loader.gif">
+      <publishTime>12/19/2017 10:41:54</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/dark_square/sprite.png">
+      <publishTime>12/19/2017 10:41:54</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/default/default_thumb.png">
+      <publishTime>12/19/2017 10:41:54</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/default/loader.gif">
+      <publishTime>12/19/2017 10:41:54</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/default/sprite.png">
+      <publishTime>12/19/2017 10:41:54</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/default/sprite_next.png">
+      <publishTime>12/19/2017 10:41:54</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/default/sprite_prev.png">
+      <publishTime>12/19/2017 10:41:54</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/default/sprite_x.png">
+      <publishTime>12/19/2017 10:41:54</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/default/sprite_y.png">
+      <publishTime>12/19/2017 10:41:54</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/facebook/btnNext.png">
+      <publishTime>12/19/2017 10:41:55</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/facebook/btnPrevious.png">
+      <publishTime>12/19/2017 10:41:55</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/facebook/contentPatternBottom.png">
+      <publishTime>12/19/2017 10:41:55</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/facebook/contentPatternLeft.png">
+      <publishTime>12/19/2017 10:41:55</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/facebook/contentPatternRight.png">
+      <publishTime>12/19/2017 10:41:55</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/facebook/contentPatternTop.png">
+      <publishTime>12/19/2017 10:41:55</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/facebook/default_thumbnail.gif">
+      <publishTime>12/19/2017 10:41:55</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/facebook/loader.gif">
+      <publishTime>12/19/2017 10:41:55</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/facebook/sprite.png">
+      <publishTime>12/19/2017 10:41:55</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/light_rounded/btnNext.png">
+      <publishTime>12/19/2017 10:41:56</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/light_rounded/btnPrevious.png">
+      <publishTime>12/19/2017 10:41:56</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/light_rounded/loader.gif">
+      <publishTime>12/19/2017 10:41:56</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/light_rounded/sprite.png">
+      <publishTime>12/19/2017 10:41:56</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/light_square/btnNext.png">
+      <publishTime>12/19/2017 10:41:56</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/light_square/btnPrevious.png">
+      <publishTime>12/19/2017 10:41:56</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/prettyPhoto/light_square/sprite.png">
+      <publishTime>12/19/2017 10:41:56</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/images/thumbnail-nav.png">
+      <publishTime>12/19/2017 10:35:20</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/javascript/gdl-scripts5152.js">
+      <publishTime>12/19/2017 10:35:22</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/javascript/hoverIntent5152.js">
+      <publishTime>12/19/2017 10:35:22</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/javascript/jquery.anythingslider5152.js">
+      <publishTime>12/19/2017 10:35:22</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/javascript/jquery.easing5152.js">
+      <publishTime>12/19/2017 10:35:22</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/javascript/jquery.fitvids5152.js">
+      <publishTime>12/19/2017 10:35:22</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/javascript/jquery.flexslider5152.js">
+      <publishTime>12/19/2017 10:35:22</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/javascript/jquery.prettyPhoto5152.js">
+      <publishTime>12/19/2017 10:35:23</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/javascript/superfish5152.js">
+      <publishTime>12/19/2017 10:35:23</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/javascript/supersub5152.js">
+      <publishTime>12/19/2017 10:35:23</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/style-customce52.css">
+      <publishTime>01/04/2019 15:54:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/style.css">
+      <publishTime>01/04/2019 10:49:37</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/stylesheet/anythingsliderce52.css">
+      <publishTime>12/19/2017 10:35:23</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/stylesheet/flexsliderce52.css">
+      <publishTime>12/19/2017 10:35:23</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/stylesheet/layout-responsive.css">
+      <publishTime>12/19/2017 10:35:23</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/stylesheet/prettyPhotoce52.css">
+      <publishTime>12/19/2017 10:35:24</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/stylesheet/skeleton-responsive.css">
+      <publishTime>12/19/2017 10:35:24</publishTime>
+    </File>
+    <File Include="Content/wp-content/themes/goodspace_v1-07/stylesheet/superfishce52.css">
+      <publishTime>12/19/2017 10:35:24</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/bacground_black_low.jpg">
+      <publishTime>12/19/2017 10:35:24</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/E.png">
+      <publishTime>12/19/2017 10:35:24</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/favicon-150x150.gif">
+      <publishTime>12/19/2017 10:35:25</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/M.png">
+      <publishTime>12/19/2017 10:35:33</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-ambalaj-01-580x482.jpg">
+      <publishTime>12/19/2017 10:35:34</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-ambalaj-02-400x400.jpg">
+      <publishTime>12/19/2017 10:35:34</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-ambalaj-02-580x482.jpg">
+      <publishTime>12/19/2017 10:35:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-ambalaj-03-580x482.jpg">
+      <publishTime>12/19/2017 10:35:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-brosur-01-400x400.jpg">
+      <publishTime>12/19/2017 10:35:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-brosur-01-580x482.jpg">
+      <publishTime>12/19/2017 10:35:37</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-brosur-02-580x482.jpg">
+      <publishTime>12/19/2017 10:35:38</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-brosur-03-580x482.jpg">
+      <publishTime>12/19/2017 10:35:39</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-brosur-04-580x482.jpg">
+      <publishTime>12/19/2017 10:35:40</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-brosur-flayer-01-580x482.jpg">
+      <publishTime>12/19/2017 10:35:41</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-brosur-flayer-02-580x482.jpg">
+      <publishTime>12/19/2017 10:35:42</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-davetiye-01-580x482.jpg">
+      <publishTime>12/19/2017 10:35:42</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-davetiye-02-580x482.jpg">
+      <publishTime>12/19/2017 10:35:44</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-davetiye-ahsap-01-580x482.jpg">
+      <publishTime>12/19/2017 10:35:45</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-davetiye-ahsap-02-580x482.jpg">
+      <publishTime>12/19/2017 10:35:47</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-davetiye-seffaf-01-400x400.jpg">
+      <publishTime>12/19/2017 10:35:48</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-davetiye-seffaf-01-580x482.jpg">
+      <publishTime>12/19/2017 10:35:49</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-davetiye-seffaf-02-580x482.jpg">
+      <publishTime>12/19/2017 10:35:51</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-davetiye-seffaf-03-580x482.jpg">
+      <publishTime>12/19/2017 10:35:54</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kartela-01-400x400.jpg">
+      <publishTime>12/19/2017 10:35:54</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kartela-01-580x482.html">
+      <publishTime>01/03/2019 15:15:34</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kartela-01-940x350.html">
+      <publishTime>01/03/2019 15:15:34</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kartela-02-580x482.html">
+      <publishTime>01/03/2019 15:15:34</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kartela-03-580x482.html">
+      <publishTime>01/03/2019 15:15:34</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kartela-04-580x482.html">
+      <publishTime>01/03/2019 15:15:34</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kartela-05-580x482.html">
+      <publishTime>01/03/2019 15:15:34</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kartela-06-580x482.html">
+      <publishTime>01/03/2019 15:15:34</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-karton-poset-canta-01-580x482.jpg">
+      <publishTime>12/19/2017 10:35:58</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-karton-poset-canta-02-580x482.jpg">
+      <publishTime>12/19/2017 10:35:58</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-karton-poset-canta-03-400x400.jpg">
+      <publishTime>12/19/2017 10:35:59</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-karton-poset-canta-03-580x482.jpg">
+      <publishTime>12/19/2017 10:35:59</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-karton-poset-canta-03-940x350.html">
+      <publishTime>01/03/2019 15:15:34</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-karton-poset-canta-04-580x482.jpg">
+      <publishTime>12/19/2017 10:35:59</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-karton-poset-canta-05-580x482.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-karton-poset-canta-06-580x482.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-karton-poset-canta-07-580x482.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kartvizit-01-580x482.jpg">
+      <publishTime>12/19/2017 10:36:01</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kartvizit-02-400x400.jpg">
+      <publishTime>12/19/2017 10:36:01</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kartvizit-02-580x482.jpg">
+      <publishTime>12/19/2017 10:36:01</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kartvizit-03-580x482.jpg">
+      <publishTime>12/19/2017 10:36:02</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kartvizit-ahsap-01-580x482.jpg">
+      <publishTime>12/19/2017 10:36:03</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kartvizit-ahsap-02-580x482.jpg">
+      <publishTime>12/19/2017 10:36:03</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kartvizit-lakli-01-580x482.jpg">
+      <publishTime>12/19/2017 10:36:04</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kartvizit-lakli-02-580x482.jpg">
+      <publishTime>12/19/2017 10:36:05</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kartvizit-metal-01-580x482.jpg">
+      <publishTime>12/19/2017 10:36:06</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kartvizit-metal-02-580x482.jpg">
+      <publishTime>12/19/2017 10:36:06</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kartvizit-metal-03-580x482.jpg">
+      <publishTime>12/19/2017 10:36:06</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kartvizit-metal-04-580x482.jpg">
+      <publishTime>12/19/2017 10:36:07</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kartvizit-metal-05-580x482.jpg">
+      <publishTime>12/19/2017 10:36:07</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-katalog-01-400x400.jpg">
+      <publishTime>12/19/2017 10:36:08</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-katalog-01-580x482.jpg">
+      <publishTime>12/19/2017 10:36:08</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-katalog-02-580x482.jpg">
+      <publishTime>12/19/2017 10:36:10</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-katalog-03-580x482.jpg">
+      <publishTime>12/19/2017 10:36:10</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-katalog-04-580x482.jpg">
+      <publishTime>12/19/2017 10:36:11</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-katalog-05-580x482.jpg">
+      <publishTime>12/19/2017 10:36:11</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kazi-kazan-01-580x482.jpg">
+      <publishTime>12/19/2017 10:36:12</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kazi-kazan-02-400x400.jpg">
+      <publishTime>12/19/2017 10:36:12</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kazi-kazan-02-580x482.jpg">
+      <publishTime>12/19/2017 10:36:12</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kazi-kazan-02-940x350.html">
+      <publishTime>01/03/2019 15:15:34</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-kazi-kazan-03-580x482.jpg">
+      <publishTime>12/19/2017 10:36:13</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-klasor-01-400x400.jpg">
+      <publishTime>12/19/2017 10:36:13</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-klasor-01-580x482.jpg">
+      <publishTime>12/19/2017 10:36:13</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-klasor-02-580x482.jpg">
+      <publishTime>12/19/2017 10:36:15</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-klasor-03-580x482.jpg">
+      <publishTime>12/19/2017 10:36:15</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-klasor-04-580x482.jpg">
+      <publishTime>12/19/2017 10:36:16</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-klasor-05-580x482.jpg">
+      <publishTime>12/19/2017 10:36:17</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-restoran-menu-01-580x482.jpg">
+      <publishTime>12/19/2017 10:36:17</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-restoran-menu-02-400x400.jpg">
+      <publishTime>12/19/2017 10:36:17</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-restoran-menu-02-580x482.jpg">
+      <publishTime>12/19/2017 10:36:17</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-restoran-menu-03-580x482.jpg">
+      <publishTime>12/19/2017 10:36:18</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-restoran-menu-ahsap-580x482.jpg">
+      <publishTime>12/19/2017 10:36:19</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-restoran-menu-deri-580x482.jpg">
+      <publishTime>12/19/2017 10:36:19</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-restoran-menu-isikli-01-580x482.jpg">
+      <publishTime>12/19/2017 10:36:20</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-soguk-tutkal-01-400x400.jpg">
+      <publishTime>12/19/2017 10:36:21</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-soguk-tutkal-01-580x482.jpg">
+      <publishTime>12/19/2017 10:36:22</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-soguk-tutkal-01-940x350.html">
+      <publishTime>01/03/2019 15:15:34</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-soguk-tutkal-02-580x482.jpg">
+      <publishTime>12/19/2017 10:36:22</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-sunum-dosyasi-01-580x482.jpg">
+      <publishTime>12/19/2017 10:36:22</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-sunum-dosyasi-02-580x482.jpg">
+      <publishTime>12/19/2017 10:36:23</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-sunum-dosyasi-03-580x482.jpg">
+      <publishTime>12/19/2017 10:36:23</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-sunum-dosyasi-04-580x482.jpg">
+      <publishTime>12/19/2017 10:36:24</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-sunum-dosyasi-05-580x482.jpg">
+      <publishTime>12/19/2017 10:36:24</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-sunum-dosyasi-06-580x482.jpg">
+      <publishTime>12/19/2017 10:36:25</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-sunum-dosyasi-07-400x400.jpg">
+      <publishTime>12/19/2017 10:36:25</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/matbaa-sunum-dosyasi-07-580x482.jpg">
+      <publishTime>12/19/2017 10:36:25</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/P.png">
+      <publishTime>12/19/2017 10:36:26</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-bardak-altligi-400x400.jpg">
+      <publishTime>12/19/2017 10:36:26</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-bardak-altligi-580x482.jpg">
+      <publishTime>12/19/2017 10:36:27</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-bardak-altligi-cam-580x482.jpg">
+      <publishTime>12/19/2017 10:36:28</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-bardak-altligi-tas-01-580x482.jpg">
+      <publishTime>12/19/2017 10:36:29</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-bardak-altligi-tas-02-580x482.jpg">
+      <publishTime>12/19/2017 10:36:30</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-bardak-altligi-tas-03-580x482.jpg">
+      <publishTime>12/19/2017 10:36:31</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-baskili-kalem-01-400x400.jpg">
+      <publishTime>12/19/2017 10:36:31</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-baskili-kalem-01-580x482.jpg">
+      <publishTime>12/19/2017 10:36:31</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-baskili-kalem-01-940x350.jpg">
+      <publishTime>12/19/2017 10:36:32</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-baskili-kalem-02-580x482.jpg">
+      <publishTime>12/19/2017 10:36:32</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-baskili-kalem-03-580x482.jpg">
+      <publishTime>12/19/2017 10:36:33</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-baskili-kalem-04-580x482.jpg">
+      <publishTime>12/19/2017 10:36:33</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-cetvel-01-580x482.jpg">
+      <publishTime>12/19/2017 10:36:34</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-cetvel-02-400x400.jpg">
+      <publishTime>12/19/2017 10:36:34</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-cetvel-02-580x482.jpg">
+      <publishTime>12/19/2017 10:36:34</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-cetvel-02-940x350.html">
+      <publishTime>01/03/2019 15:15:34</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-defter-01-580x482.jpg">
+      <publishTime>12/19/2017 10:36:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-defter-02-580x482.jpg">
+      <publishTime>12/19/2017 10:36:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-defter-03-400x400.jpg">
+      <publishTime>12/19/2017 10:36:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-defter-03-580x482.jpg">
+      <publishTime>12/19/2017 10:36:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-defter-04-580x482.jpg">
+      <publishTime>12/19/2017 10:36:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-defter-05-580x482.jpg">
+      <publishTime>12/19/2017 10:36:37</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-donkart-01-580x482.jpg">
+      <publishTime>12/19/2017 10:36:37</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-donkart-02-580x482.jpg">
+      <publishTime>12/19/2017 10:36:38</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-donkart-03-580x482.jpg">
+      <publishTime>12/19/2017 10:36:38</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-donkart-04-400x400.jpg">
+      <publishTime>12/19/2017 10:36:39</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-donkart-04-580x482.jpg">
+      <publishTime>12/19/2017 10:36:39</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-duvar-saati-580x482.jpg">
+      <publishTime>12/19/2017 10:36:40</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-duvar-saati-ahsap-580x482.jpg">
+      <publishTime>12/19/2017 10:36:41</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-duvar-saati-cam-01-400x400.jpg">
+      <publishTime>12/19/2017 10:36:41</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-duvar-saati-cam-01-580x482.jpg">
+      <publishTime>12/19/2017 10:36:41</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-duvar-saati-cam-01-940x350.jpg">
+      <publishTime>12/19/2017 10:36:43</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-duvar-saati-cam-02-580x482.jpg">
+      <publishTime>12/19/2017 10:36:42</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-duvar-saati-cam-03-580x482.jpg">
+      <publishTime>12/19/2017 10:36:43</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-kristal-01-400x400.jpg">
+      <publishTime>12/19/2017 10:36:43</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-kristal-01-580x482.jpg">
+      <publishTime>12/19/2017 10:36:44</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-kristal-01-940x350.jpg">
+      <publishTime>12/19/2017 10:36:45</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-kristal-02-580x482.jpg">
+      <publishTime>12/19/2017 10:36:45</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-kristal-03-580x482.jpg">
+      <publishTime>12/19/2017 10:36:45</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-kristal-04-580x482.jpg">
+      <publishTime>12/19/2017 10:36:46</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-kristal-05-580x482.jpg">
+      <publishTime>12/19/2017 10:36:46</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-kristal-06-580x482.jpg">
+      <publishTime>12/19/2017 10:36:46</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-kristal-07-580x482.jpg">
+      <publishTime>12/19/2017 10:36:47</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-magnet-400x400.jpg">
+      <publishTime>12/19/2017 10:36:47</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-magnet-580x482.jpg">
+      <publishTime>12/19/2017 10:36:47</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-magnet-cerceve-01-580x482.jpg">
+      <publishTime>12/19/2017 10:36:49</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-magnet-cerceve-02-580x482.jpg">
+      <publishTime>12/19/2017 10:36:49</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-magnet-poster-cerceve-01-580x482.jpg">
+      <publishTime>12/19/2017 10:36:49</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-magnet-poster-cerceve-02-580x482.jpg">
+      <publishTime>12/19/2017 10:36:50</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-mousepad-01-580x482.jpg">
+      <publishTime>12/19/2017 10:36:50</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-mousepad-02-580x482.jpg">
+      <publishTime>12/19/2017 10:36:51</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-mousepad-03-580x482.jpg">
+      <publishTime>12/19/2017 10:36:52</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-mousepad-04-400x400.jpg">
+      <publishTime>12/19/2017 10:36:52</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-mousepad-04-580x482.jpg">
+      <publishTime>12/19/2017 10:36:52</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-mousepad-04-940x350.jpg">
+      <publishTime>12/19/2017 10:36:53</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-mousepad-05-580x482.jpg">
+      <publishTime>12/19/2017 10:36:53</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-plastik-pvc-urunler-dosya-01-580x482.jpg">
+      <publishTime>12/19/2017 10:36:53</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-plastik-pvc-urunler-dosya-02-580x482.jpg">
+      <publishTime>12/19/2017 10:36:54</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-plastik-pvc-urunler-dosya-03-580x482.jpg">
+      <publishTime>12/19/2017 10:36:54</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-plastik-pvc-urunler-klasor-580x482.jpg">
+      <publishTime>12/19/2017 10:36:55</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-plastik-pvc-urunler-sekreterlik-580x482.jpg">
+      <publishTime>12/19/2017 10:36:55</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-plastik-pvc-urunler-zarf-400x400.jpg">
+      <publishTime>12/19/2017 10:36:55</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-plastik-pvc-urunler-zarf-580x482.jpg">
+      <publishTime>12/19/2017 10:36:55</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-plastik-pvc-urunler-zarf-940x350.jpg">
+      <publishTime>12/19/2017 10:36:56</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-usb-flash-disk-01-580x482.jpg">
+      <publishTime>12/19/2017 10:36:56</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-usb-flash-disk-02-400x400.jpg">
+      <publishTime>12/19/2017 10:36:56</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-usb-flash-disk-02-580x482.jpg">
+      <publishTime>12/19/2017 10:36:57</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-usb-flash-disk-03-580x482.jpg">
+      <publishTime>12/19/2017 10:36:57</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-usb-flash-disk-anahtar-580x482.jpg">
+      <publishTime>12/19/2017 10:36:58</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-usb-flash-disk-kart-01-580x482.jpg">
+      <publishTime>12/19/2017 10:36:58</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-usb-flash-disk-kart-02-580x482.jpg">
+      <publishTime>12/19/2017 10:36:59</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-usb-flash-disk-kart-03-580x482.jpg">
+      <publishTime>12/19/2017 10:36:59</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-wobbler-01-400x400.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-wobbler-01-580x482.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-wobbler-01-940x350.html">
+      <publishTime>01/03/2019 15:15:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-wobbler-02-580x482.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/promosyon-wobbler-03-580x482.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/referanslar.jpg">
+      <publishTime>12/19/2017 10:37:01</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/S.png">
+      <publishTime>12/19/2017 10:37:01</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-01-390x390.jpg">
+      <publishTime>12/19/2017 10:37:02</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-01.jpg">
+      <publishTime>12/19/2017 10:37:02</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-02-390x390.jpg">
+      <publishTime>12/19/2017 10:37:02</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-02.jpg">
+      <publishTime>12/19/2017 10:37:02</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-03-390x390.jpg">
+      <publishTime>12/19/2017 10:37:03</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-03.jpg">
+      <publishTime>12/19/2017 10:37:03</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-04-390x390.jpg">
+      <publishTime>12/19/2017 10:37:03</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-04.jpg">
+      <publishTime>12/19/2017 10:37:03</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-05-390x390.jpg">
+      <publishTime>12/19/2017 10:37:04</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-05.jpg">
+      <publishTime>12/19/2017 10:37:04</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-06-390x390.jpg">
+      <publishTime>12/19/2017 10:37:04</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-06.jpg">
+      <publishTime>12/19/2017 10:37:04</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-07-390x390.jpg">
+      <publishTime>12/19/2017 10:37:05</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-07.jpg">
+      <publishTime>12/19/2017 10:37:05</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-08-390x390.jpg">
+      <publishTime>12/19/2017 10:37:05</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-08.jpg">
+      <publishTime>12/19/2017 10:37:05</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-09-390x390.jpg">
+      <publishTime>12/19/2017 10:37:05</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-09.jpg">
+      <publishTime>12/19/2017 10:37:06</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-10-390x390.jpg">
+      <publishTime>12/19/2017 10:37:06</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-10.jpg">
+      <publishTime>12/19/2017 10:37:06</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-11-390x390.jpg">
+      <publishTime>12/19/2017 10:37:06</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-11.jpg">
+      <publishTime>12/19/2017 10:37:07</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-12-390x390.jpg">
+      <publishTime>12/19/2017 10:37:07</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-12.jpg">
+      <publishTime>12/19/2017 10:37:07</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-13-390x390.jpg">
+      <publishTime>12/19/2017 10:37:07</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-13.jpg">
+      <publishTime>12/19/2017 10:37:08</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-14-390x390.jpg">
+      <publishTime>12/19/2017 10:37:08</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-14.jpg">
+      <publishTime>12/19/2017 10:37:08</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-15-390x390.jpg">
+      <publishTime>12/19/2017 10:37:08</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-15.jpg">
+      <publishTime>12/19/2017 10:37:08</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-16-390x390.jpg">
+      <publishTime>12/19/2017 10:37:09</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-16.jpg">
+      <publishTime>12/19/2017 10:37:09</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-17-390x390.jpg">
+      <publishTime>12/19/2017 10:37:09</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-17.jpg">
+      <publishTime>12/19/2017 10:37:09</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-18-390x390.jpg">
+      <publishTime>12/19/2017 10:37:09</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-18.jpg">
+      <publishTime>12/19/2017 10:37:10</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-19-390x390.jpg">
+      <publishTime>12/19/2017 10:37:10</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-19.jpg">
+      <publishTime>12/19/2017 10:37:10</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-20-390x390.jpg">
+      <publishTime>12/19/2017 10:37:10</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-20.jpg">
+      <publishTime>12/19/2017 10:37:10</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-21-390x390.jpg">
+      <publishTime>12/19/2017 10:37:11</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-21.jpg">
+      <publishTime>12/19/2017 10:37:11</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-22-390x390.jpg">
+      <publishTime>12/19/2017 10:37:11</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-22.jpg">
+      <publishTime>12/19/2017 10:37:11</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-23-390x390.jpg">
+      <publishTime>12/19/2017 10:37:12</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-23.jpg">
+      <publishTime>12/19/2017 10:37:12</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-24-390x390.jpg">
+      <publishTime>12/19/2017 10:37:12</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-24.jpg">
+      <publishTime>12/19/2017 10:37:12</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-25-390x390.jpg">
+      <publishTime>12/19/2017 10:37:13</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-25.jpg">
+      <publishTime>12/19/2017 10:37:13</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-26-390x390.jpg">
+      <publishTime>12/19/2017 10:37:13</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-26.jpg">
+      <publishTime>12/19/2017 10:37:13</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-27-390x390.jpg">
+      <publishTime>12/19/2017 10:37:14</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-27.jpg">
+      <publishTime>12/19/2017 10:37:14</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-28-390x390.jpg">
+      <publishTime>12/19/2017 10:37:14</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-28.jpg">
+      <publishTime>12/19/2017 10:37:14</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-29-390x390.jpg">
+      <publishTime>12/19/2017 10:37:15</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-29.jpg">
+      <publishTime>12/19/2017 10:37:15</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-30-390x390.jpg">
+      <publishTime>12/19/2017 10:37:15</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-30.jpg">
+      <publishTime>12/19/2017 10:37:15</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-31-390x390.jpg">
+      <publishTime>12/19/2017 10:37:15</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-31.jpg">
+      <publishTime>12/19/2017 10:37:16</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-32-390x390.jpg">
+      <publishTime>12/19/2017 10:37:16</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-32.jpg">
+      <publishTime>12/19/2017 10:37:16</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-33-390x390.jpg">
+      <publishTime>12/19/2017 10:37:16</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-33.jpg">
+      <publishTime>12/19/2017 10:37:17</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-34-390x390.jpg">
+      <publishTime>12/19/2017 10:37:17</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-34.jpg">
+      <publishTime>12/19/2017 10:37:17</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-35-390x390.jpg">
+      <publishTime>12/19/2017 10:37:17</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-35.jpg">
+      <publishTime>12/19/2017 10:37:18</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-36-390x390.jpg">
+      <publishTime>12/19/2017 10:37:18</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-36.jpg">
+      <publishTime>12/19/2017 10:37:18</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-37-390x390.jpg">
+      <publishTime>12/19/2017 10:37:18</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-37.jpg">
+      <publishTime>12/19/2017 10:37:18</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-38-390x390.jpg">
+      <publishTime>12/19/2017 10:37:19</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-38.jpg">
+      <publishTime>12/19/2017 10:37:19</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-39-390x390.jpg">
+      <publishTime>12/19/2017 10:37:19</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-39.jpg">
+      <publishTime>12/19/2017 10:37:19</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-40-390x390.jpg">
+      <publishTime>12/19/2017 10:37:19</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/seffaf-kartvizit-40.jpg">
+      <publishTime>12/19/2017 10:37:20</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-aluminyum-etiket-01-580x482.jpg">
+      <publishTime>12/19/2017 10:37:20</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-aluminyum-etiket-02-400x400.jpg">
+      <publishTime>12/19/2017 10:37:21</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-aluminyum-etiket-02-580x482.jpg">
+      <publishTime>12/19/2017 10:37:21</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-aluminyum-etiket-02-940x350.html">
+      <publishTime>01/03/2019 15:15:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-aluminyum-etiket-03-580x482.jpg">
+      <publishTime>12/19/2017 10:37:21</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-aluminyum-etiket-04-580x482.jpg">
+      <publishTime>12/19/2017 10:37:22</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-amerikan-servis-01-400x400.jpg">
+      <publishTime>12/19/2017 10:37:22</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-amerikan-servis-01-580x482.jpg">
+      <publishTime>12/19/2017 10:37:22</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-amerikan-servis-01-940x350.html">
+      <publishTime>01/03/2019 15:15:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-amerikan-servis-02-580x482.jpg">
+      <publishTime>12/19/2017 10:37:23</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-leksan-etiket-01-580x482.jpg">
+      <publishTime>12/19/2017 10:37:24</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-leksan-etiket-02-580x482.jpg">
+      <publishTime>12/19/2017 10:37:24</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-leksan-etiket-03-580x482.jpg">
+      <publishTime>12/19/2017 10:37:25</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-leksan-etiket-04-400x400.jpg">
+      <publishTime>12/19/2017 10:37:25</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-leksan-etiket-04-580x482.jpg">
+      <publishTime>12/19/2017 10:37:25</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-leksan-etiket-04-940x350.html">
+      <publishTime>01/03/2019 15:15:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-leksan-etiket-05-580x482.jpg">
+      <publishTime>12/19/2017 10:37:26</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-tampon-baski-01-580x482.jpg">
+      <publishTime>12/19/2017 10:37:27</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-tampon-baski-02-580x482.jpg">
+      <publishTime>12/19/2017 10:37:28</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-tampon-baski-03-400x400.jpg">
+      <publishTime>12/19/2017 10:37:28</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-tampon-baski-03-580x482.jpg">
+      <publishTime>12/19/2017 10:37:28</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-tampon-baski-03-940x350.html">
+      <publishTime>01/03/2019 15:15:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-ahsap-400x400.jpg">
+      <publishTime>12/19/2017 10:37:29</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-ahsap-580x482.jpg">
+      <publishTime>12/19/2017 10:37:29</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-ahsap-940x350.html">
+      <publishTime>01/03/2019 15:15:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-golf-topu-400x400.jpg">
+      <publishTime>12/19/2017 10:37:29</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-golf-topu-580x482.jpg">
+      <publishTime>12/19/2017 10:37:29</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-golf-topu-940x350.html">
+      <publishTime>01/03/2019 15:15:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-kiril-alfabesi-400x400.jpg">
+      <publishTime>12/19/2017 10:37:30</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-kiril-alfabesi-580x482.jpg">
+      <publishTime>12/19/2017 10:37:30</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-kiril-alfabesi-940x350.html">
+      <publishTime>01/03/2019 15:15:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-kutu-01-400x400.jpg">
+      <publishTime>12/19/2017 10:37:30</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-kutu-01-580x482.jpg">
+      <publishTime>12/19/2017 10:37:30</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-kutu-01-940x350.html">
+      <publishTime>01/03/2019 15:15:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-kutu-02-400x400.jpg">
+      <publishTime>12/19/2017 10:37:31</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-kutu-02-580x482.jpg">
+      <publishTime>12/19/2017 10:37:31</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-kutu-02-940x350.html">
+      <publishTime>01/03/2019 15:15:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-mantar-400x400.jpg">
+      <publishTime>12/19/2017 10:37:32</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-mantar-580x482.jpg">
+      <publishTime>12/19/2017 10:37:32</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-mantar-940x350.html">
+      <publishTime>01/03/2019 15:15:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-mukavva-400x400.jpg">
+      <publishTime>12/19/2017 10:37:32</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-mukavva-580x482.jpg">
+      <publishTime>12/19/2017 10:37:33</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-mukavva-940x350.html">
+      <publishTime>01/03/2019 15:15:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-plastik-400x400.jpg">
+      <publishTime>12/19/2017 10:37:33</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-plastik-580x482.jpg">
+      <publishTime>12/19/2017 10:37:33</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-plastik-940x350.html">
+      <publishTime>01/03/2019 15:15:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-pleksi-isimlik-400x400.jpg">
+      <publishTime>12/19/2017 10:37:34</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-pleksi-isimlik-580x482.jpg">
+      <publishTime>12/19/2017 10:37:34</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-pleksi-isimlik-940x350.html">
+      <publishTime>01/03/2019 15:15:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-pleksi-stand-400x400.jpg">
+      <publishTime>12/19/2017 10:37:34</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-pleksi-stand-580x482.jpg">
+      <publishTime>12/19/2017 10:37:34</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-pleksi-stand-940x350.html">
+      <publishTime>01/03/2019 15:15:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-tablet-01-400x400.jpg">
+      <publishTime>12/19/2017 10:37:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-tablet-01-580x482.jpg">
+      <publishTime>12/19/2017 10:37:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-tablet-01-940x350.html">
+      <publishTime>01/03/2019 15:15:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-tablet-02-400x400.jpg">
+      <publishTime>12/19/2017 10:37:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-tablet-02-580x482.jpg">
+      <publishTime>12/19/2017 10:37:35</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-tablet-02-940x350.html">
+      <publishTime>01/03/2019 15:15:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-tahta-400x400.jpg">
+      <publishTime>12/19/2017 10:37:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-tahta-580x482.jpg">
+      <publishTime>12/19/2017 10:37:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-tahta-940x350.html">
+      <publishTime>01/03/2019 15:15:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-telefon-kapagi-01-400x400.jpg">
+      <publishTime>12/19/2017 10:37:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-telefon-kapagi-01-580x482.jpg">
+      <publishTime>12/19/2017 10:37:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-telefon-kapagi-01-940x350.html">
+      <publishTime>01/03/2019 15:15:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-telefon-kapagi-02-400x400.jpg">
+      <publishTime>12/19/2017 10:37:37</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-telefon-kapagi-02-580x482.jpg">
+      <publishTime>12/19/2017 10:37:37</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-telefon-kapagi-02-940x350.html">
+      <publishTime>01/03/2019 15:15:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-telefon-kapagi-03-400x400.jpg">
+      <publishTime>12/19/2017 10:37:37</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-telefon-kapagi-03-580x482.jpg">
+      <publishTime>12/19/2017 10:37:38</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-telefon-kapagi-03-940x350.html">
+      <publishTime>01/03/2019 15:15:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-urun-400x400.jpg">
+      <publishTime>12/19/2017 10:37:38</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-urun-580x482.jpg">
+      <publishTime>12/19/2017 10:37:38</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/serigrafi-uzerine-baski-urun-940x350.html">
+      <publishTime>01/03/2019 15:15:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-matbaa-01-940x360.jpg">
+      <publishTime>12/19/2017 10:37:42</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-matbaa-02-940x360.jpg">
+      <publishTime>12/19/2017 10:37:42</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-matbaa-03-940x360.jpg">
+      <publishTime>12/19/2017 10:37:43</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-matbaa-04-940x360.jpg">
+      <publishTime>12/19/2017 10:37:43</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-matbaa-05-940x360.jpg">
+      <publishTime>12/19/2017 10:37:44</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-matbaa-06-940x360.jpg">
+      <publishTime>12/19/2017 10:37:45</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-promosyon-01-940x360.jpg">
+      <publishTime>12/19/2017 10:37:45</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-promosyon-02-940x360.jpg">
+      <publishTime>12/19/2017 10:37:46</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-promosyon-03-940x360.jpg">
+      <publishTime>12/19/2017 10:37:46</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-promosyon-04-940x360.jpg">
+      <publishTime>12/19/2017 10:37:46</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-promosyon-05-940x360.jpg">
+      <publishTime>12/19/2017 10:37:47</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-seffaf-kart-01-940x360.jpg">
+      <publishTime>12/19/2017 10:37:47</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-seffaf-kart-02-940x360.jpg">
+      <publishTime>12/19/2017 10:37:48</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-serigrafi-01-940x360.jpg">
+      <publishTime>12/19/2017 10:37:49</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-serigrafi-02-940x360.jpg">
+      <publishTime>12/19/2017 10:37:49</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-serigrafi-03-940x360.jpg">
+      <publishTime>12/19/2017 10:37:50</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-serigrafi-04-940x360.jpg">
+      <publishTime>12/19/2017 10:37:51</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-serigrafi-05-940x360.jpg">
+      <publishTime>12/19/2017 10:37:51</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-serigrafi-06-940x360.jpg">
+      <publishTime>12/19/2017 10:37:52</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-sticker-01-940x360.jpg">
+      <publishTime>12/19/2017 10:37:52</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-sticker-02-940x360.jpg">
+      <publishTime>12/19/2017 10:37:53</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-sticker-03-940x360.jpg">
+      <publishTime>12/19/2017 10:37:54</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-sticker-04-940x360.jpg">
+      <publishTime>12/19/2017 10:37:54</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-sticker-05-940x360.jpg">
+      <publishTime>12/19/2017 10:37:55</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-tekstil-01-940x360.jpg">
+      <publishTime>12/19/2017 10:37:56</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/slider-tekstil-02-940x360.jpg">
+      <publishTime>12/19/2017 10:37:56</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-aluminyum-400x400.jpg">
+      <publishTime>12/19/2017 10:37:57</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-aluminyum-580x482.jpg">
+      <publishTime>12/19/2017 10:37:57</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-aluminyum-940x350.html">
+      <publishTime>01/03/2019 15:15:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-damla-etiket-01-580x482.jpg">
+      <publishTime>12/19/2017 10:37:57</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-damla-etiket-02-400x400.jpg">
+      <publishTime>12/19/2017 10:37:58</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-damla-etiket-02-580x482.jpg">
+      <publishTime>12/19/2017 10:37:58</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-double-sandwich-01-580x482.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-double-sandwich-02-400x400.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-double-sandwich-02-580x482.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-double-sandwich-03-580x482.jpg">
+      <publishTime>12/19/2017 10:38:02</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-emniyet-etiketleri-01-580x482.jpg">
+      <publishTime>12/19/2017 10:38:02</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-emniyet-etiketleri-02-580x482.jpg">
+      <publishTime>12/19/2017 10:38:02</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-emniyet-etiketleri-03-400x400.jpg">
+      <publishTime>12/19/2017 10:38:03</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-emniyet-etiketleri-03-580x482.jpg">
+      <publishTime>12/19/2017 10:38:03</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-emniyet-etiketleri-03-940x350.html">
+      <publishTime>01/03/2019 15:15:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-emniyet-etiketleri-04-580x482.jpg">
+      <publishTime>12/19/2017 10:38:04</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-fosfor-lumen-01-400x400.jpg">
+      <publishTime>12/19/2017 10:38:04</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-fosfor-lumen-01-580x482.jpg">
+      <publishTime>12/19/2017 10:38:05</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-fosfor-lumen-01-940x350.html">
+      <publishTime>01/03/2019 15:15:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-fosfor-lumen-02-580x482.jpg">
+      <publishTime>12/19/2017 10:38:05</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-fosfor-lumen-03-580x482.jpg">
+      <publishTime>12/19/2017 10:38:06</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-guvenlik_etiketi_01-400x400.jpg">
+      <publishTime>12/19/2017 10:38:06</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-guvenlik_etiketi_01-580x482.jpg">
+      <publishTime>12/19/2017 10:38:07</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-guvenlik_etiketi_01-940x350.html">
+      <publishTime>01/03/2019 15:15:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-guvenlik_etiketi_02-580x482.jpg">
+      <publishTime>12/19/2017 10:38:08</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-hologram-01-580x482.jpg">
+      <publishTime>12/19/2017 10:38:08</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-hologram-02-580x482.jpg">
+      <publishTime>12/19/2017 10:38:09</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-hologram-03-400x400.jpg">
+      <publishTime>12/19/2017 10:38:09</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-hologram-03-580x482.jpg">
+      <publishTime>12/19/2017 10:38:10</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-hologram-03-940x350.jpg">
+      <publishTime>12/19/2017 10:38:11</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-hologram-04-580x482.jpg">
+      <publishTime>12/19/2017 10:38:11</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-icten-yapistirma-cam-01-580x482.jpg">
+      <publishTime>12/19/2017 10:38:11</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-icten-yapistirma-cam-02-400x400.jpg">
+      <publishTime>12/19/2017 10:38:12</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-icten-yapistirma-cam-02-580x482.jpg">
+      <publishTime>12/19/2017 10:38:12</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-icten-yapistirma-cam-02-940x350.html">
+      <publishTime>01/03/2019 15:15:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-kuse-01-400x400.jpg">
+      <publishTime>12/19/2017 10:38:13</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-kuse-01-580x482.jpg">
+      <publishTime>12/19/2017 10:38:13</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-kuse-02-580x482.jpg">
+      <publishTime>12/19/2017 10:38:14</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-metalize-01-580x482.jpg">
+      <publishTime>12/19/2017 10:38:15</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-metalize-02-580x482.jpg">
+      <publishTime>12/19/2017 10:38:16</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-metalize-03-580x482.jpg">
+      <publishTime>12/19/2017 10:38:16</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-metalize-04-400x400.jpg">
+      <publishTime>12/19/2017 10:38:17</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-metalize-04-580x482.jpg">
+      <publishTime>12/19/2017 10:38:17</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-nonperm-removable-400x400.jpg">
+      <publishTime>12/19/2017 10:38:18</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-nonperm-removable-580x482.jpg">
+      <publishTime>12/19/2017 10:38:18</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-nonperm-removable-940x350.jpg">
+      <publishTime>12/19/2017 10:38:19</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-opak-01-400x400.jpg">
+      <publishTime>12/19/2017 10:38:19</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-opak-01-580x482.jpg">
+      <publishTime>12/19/2017 10:38:19</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-opak-02-580x482.jpg">
+      <publishTime>12/19/2017 10:38:21</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-opak-03-580x482.jpg">
+      <publishTime>12/19/2017 10:38:22</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-opak-04-580x482.jpg">
+      <publishTime>12/19/2017 10:38:25</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-poliuretan-damla-01-400x400.jpg">
+      <publishTime>12/19/2017 10:38:26</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-poliuretan-damla-01-580x482.jpg">
+      <publishTime>12/19/2017 10:38:28</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-poliuretan-damla-02-580x482.jpg">
+      <publishTime>12/19/2017 10:38:30</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-rulo-01-400x400.jpg">
+      <publishTime>12/19/2017 10:38:31</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-rulo-01-580x482.jpg">
+      <publishTime>12/19/2017 10:38:31</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-rulo-02-580x482.jpg">
+      <publishTime>12/19/2017 10:38:34</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-rulo-03-580x482.jpg">
+      <publishTime>12/19/2017 10:38:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-rulo-04-580x482.jpg">
+      <publishTime>12/19/2017 10:38:38</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-seffaf-01-580x482.jpg">
+      <publishTime>12/19/2017 10:38:40</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-seffaf-02-580x482.jpg">
+      <publishTime>12/19/2017 10:38:41</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-seffaf-03-580x482.jpg">
+      <publishTime>12/19/2017 10:38:43</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-seffaf-04-400x400.jpg">
+      <publishTime>12/19/2017 10:38:44</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-seffaf-04-580x482.jpg">
+      <publishTime>12/19/2017 10:38:44</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-seffaf-04-940x350.html">
+      <publishTime>01/03/2019 15:15:36</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-seffaf-05-580x482.jpg">
+      <publishTime>12/19/2017 10:38:45</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-static-01-400x400.jpg">
+      <publishTime>12/19/2017 10:38:45</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-static-01-580x482.jpg">
+      <publishTime>12/19/2017 10:38:46</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-static-01-940x350.jpg">
+      <publishTime>12/19/2017 10:38:48</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/sticker-static-02-580x482.jpg">
+      <publishTime>12/19/2017 10:38:49</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/tekstil-etiketi-01-390x390.jpg">
+      <publishTime>12/19/2017 10:38:50</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/tekstil-etiketi-01.jpg">
+      <publishTime>12/19/2017 10:38:50</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/tekstil-etiketi-02-390x390.jpg">
+      <publishTime>12/19/2017 10:38:51</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/tekstil-etiketi-02.jpg">
+      <publishTime>12/19/2017 10:38:52</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/tekstil-etiketi-03-390x390.jpg">
+      <publishTime>12/19/2017 10:38:53</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/tekstil-etiketi-03.jpg">
+      <publishTime>12/19/2017 10:38:53</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/tekstil-etiketi-04-390x390.jpg">
+      <publishTime>12/19/2017 10:38:53</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/tekstil-etiketi-04.jpg">
+      <publishTime>12/19/2017 10:38:54</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/tekstil-etiketi-05-390x390.jpg">
+      <publishTime>12/19/2017 10:38:54</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/tekstil-etiketi-05.jpg">
+      <publishTime>12/19/2017 10:38:55</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/tekstil-etiketi-06-390x390.jpg">
+      <publishTime>12/19/2017 10:38:55</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/tekstil-etiketi-06.jpg">
+      <publishTime>12/19/2017 10:38:55</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/tekstil-etiketi-07-390x390.jpg">
+      <publishTime>12/19/2017 10:38:55</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/tekstil-etiketi-07.jpg">
+      <publishTime>12/19/2017 10:38:56</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/tekstil-etiketi-08-390x390.jpg">
+      <publishTime>12/19/2017 10:38:56</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/tekstil-etiketi-08.jpg">
+      <publishTime>12/19/2017 10:38:56</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/tekstil-etiketi-09-390x390.jpg">
+      <publishTime>12/19/2017 10:38:57</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/tekstil-etiketi-09.jpg">
+      <publishTime>12/19/2017 10:38:57</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/tekstil-etiketi-10-390x390.jpg">
+      <publishTime>12/19/2017 10:38:57</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/tekstil-etiketi-10.jpg">
+      <publishTime>12/19/2017 10:38:58</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/tekstil-etiketi-11-390x390.jpg">
+      <publishTime>12/19/2017 10:38:58</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/tekstil-etiketi-11.jpg">
+      <publishTime>12/19/2017 10:38:58</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/tekstil-etiketi-12-390x390.jpg">
+      <publishTime>12/19/2017 10:38:59</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2015/06/tekstil-etiketi-12.jpg">
+      <publishTime>12/19/2017 10:38:59</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2017/04/karaca-logo-70.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Content/wp-content/uploads/2017/04/karaca-logo-80.png">
+      <publishTime>12/19/2017 10:39:01</publishTime>
+    </File>
+    <File Include="Content/wp-includes/css/dist/block-library/style.mince52.css">
+      <publishTime>12/10/2018 18:08:43</publishTime>
+    </File>
+    <File Include="Content/wp-includes/js/comment-reply.mince52.js">
+      <publishTime>12/19/2017 10:52:15</publishTime>
+    </File>
+    <File Include="Content/wp-includes/js/jquery/jquery-migrate.min330a.js">
+      <publishTime>11/20/2018 12:49:14</publishTime>
+    </File>
+    <File Include="Content/wp-includes/js/jquery/jquery.color.mine1fc.js">
+      <publishTime>12/19/2017 10:53:09</publishTime>
+    </File>
+    <File Include="Content/wp-includes/js/jquery/jqueryb8ff.js">
+      <publishTime>11/20/2018 12:49:14</publishTime>
+    </File>
+    <File Include="Content/wp-includes/js/jquery/ui/core.mine899.js">
+      <publishTime>11/20/2018 12:49:14</publishTime>
+    </File>
+    <File Include="Content/wp-includes/js/wp-embed.mince52.js">
+      <publishTime>12/10/2018 18:08:43</publishTime>
+    </File>
+    <File Include="Content/wp-includes/wlwmanifest.xml">
+      <publishTime>12/19/2017 10:51:56</publishTime>
+    </File>
+    <File Include="Content/wp-json/index.html">
+      <publishTime>01/03/2019 15:27:10</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed06ce">
+      <publishTime>01/03/2019 15:27:15</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed0726">
+      <publishTime>01/03/2019 15:27:16</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed0b51.json">
+      <publishTime>01/03/2019 15:27:16</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed0b5c.json">
+      <publishTime>01/03/2019 15:27:16</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed0cbc.json">
+      <publishTime>01/03/2019 15:27:16</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed0d5e.json">
+      <publishTime>01/03/2019 15:27:16</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed11fd.json">
+      <publishTime>01/03/2019 15:27:13</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed1215">
+      <publishTime>01/03/2019 15:25:20</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed1258.json">
+      <publishTime>01/03/2019 15:25:20</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed15c8.json">
+      <publishTime>01/03/2019 15:25:20</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed1e69">
+      <publishTime>01/03/2019 15:25:20</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed1e7c">
+      <publishTime>01/03/2019 15:25:20</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed1ed9.json">
+      <publishTime>01/03/2019 15:25:20</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed2010.json">
+      <publishTime>01/03/2019 15:25:20</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed20a4">
+      <publishTime>01/03/2019 15:25:20</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed2528">
+      <publishTime>01/03/2019 15:25:20</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed2556">
+      <publishTime>01/03/2019 15:25:20</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed25da">
+      <publishTime>01/03/2019 15:25:20</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed292b.json">
+      <publishTime>01/03/2019 15:25:20</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed29a4.json">
+      <publishTime>01/03/2019 15:25:20</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed2bd7.json">
+      <publishTime>01/03/2019 15:25:20</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed2d53">
+      <publishTime>01/03/2019 15:25:20</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed3151">
+      <publishTime>01/03/2019 15:25:20</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed32de">
+      <publishTime>01/03/2019 15:25:20</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed3366">
+      <publishTime>01/03/2019 15:25:20</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed3434.json">
+      <publishTime>01/03/2019 15:25:20</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed3759">
+      <publishTime>01/03/2019 15:25:20</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed394f.json">
+      <publishTime>01/03/2019 15:25:20</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed3f55">
+      <publishTime>01/03/2019 15:25:20</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed4563">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed4943.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed4972">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed4a4d">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed4a6a">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed4cad">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed4cce.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed4ce8.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed5381.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed540d">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed587c.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed5b41">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed677f">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed6a7a.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed6c59.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed6cfd.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed6cfe.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed6f8d.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed7022">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed75eb.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed7776">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed7911.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed79ba">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed7a75.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed812f">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed877d">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed87fa">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed88ce.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed8c53">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed8d44">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed8d49">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed8dd3">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed9421">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed993c.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed9aae.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed9afc.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embed9f4b.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embeda1f3.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embeda25c">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embeda281">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embeda5c6">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embeda8b5.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embeda915.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedaa73.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedac92.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedadb9.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedb2bb.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedb489">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedb4fe.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedb9a9">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedbaff.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedbf7a.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedc037.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedc05b.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedc4c3.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedc5e1.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedc740">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedc76a.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedc9ab">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedcad2">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedcb18">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedcb6d">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedcebd">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedd59d">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedd7a8">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedd860">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedd9c5.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embeddb04">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embede23d">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embede4b4">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embede91e">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embede9c1.json">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedea7f">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedec33">
+      <publishTime>01/03/2019 15:25:21</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embededa9.json">
+      <publishTime>01/03/2019 15:25:22</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedef7c">
+      <publishTime>01/03/2019 15:25:22</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedf0fe.json">
+      <publishTime>01/03/2019 15:25:22</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedf46a">
+      <publishTime>01/03/2019 15:25:22</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedf4b2.json">
+      <publishTime>01/03/2019 15:25:22</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedf700.json">
+      <publishTime>01/03/2019 15:25:22</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedfd9f.json">
+      <publishTime>01/03/2019 15:25:22</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedfdb3.json">
+      <publishTime>01/03/2019 15:25:22</publishTime>
+    </File>
+    <File Include="Content/wp-json/oembed/1.0/embedffdf.json">
+      <publishTime>01/03/2019 15:25:22</publishTime>
+    </File>
+    <File Include="Content/ürün etiketleri.JPG">
+      <publishTime>12/24/2018 16:58:13</publishTime>
+    </File>
+    <File Include="css/main.css">
+      <publishTime>12/18/2018 13:23:27</publishTime>
+    </File>
+    <File Include="css/util.css">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>12/24/2018 10:59:23</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/css/font-awesome.css">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+      <publishTime>05/23/2017 17:43:54</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/fonts/FontAwesome.otf">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/HELP-US-OUT.txt">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/less/animated.less">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/less/bordered-pulled.less">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/less/core.less">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/less/fixed-width.less">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/less/font-awesome.less">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/less/icons.less">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/less/larger.less">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/less/list.less">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/less/mixins.less">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/less/path.less">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/less/rotated-flipped.less">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/less/screen-reader.less">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/less/stacked.less">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/less/variables.less">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/scss/font-awesome.scss">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/scss/_animated.scss">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/scss/_core.scss">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/scss/_fixed-width.scss">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/scss/_icons.scss">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/scss/_larger.scss">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/scss/_list.scss">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/scss/_mixins.scss">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/scss/_path.scss">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/scss/_screen-reader.scss">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/scss/_stacked.scss">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/font-awesome-4.7.0/scss/_variables.scss">
+      <publishTime>05/23/2017 17:43:52</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>12/24/2018 10:59:25</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>12/24/2018 10:59:25</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>12/24/2018 10:59:25</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>12/24/2018 10:59:25</publishTime>
+    </File>
+    <File Include="fonts/montserrat/Montserrat-Black.ttf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="fonts/montserrat/Montserrat-BlackItalic.ttf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="fonts/montserrat/Montserrat-Bold.ttf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="fonts/montserrat/Montserrat-BoldItalic.ttf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="fonts/montserrat/Montserrat-ExtraBold.ttf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="fonts/montserrat/Montserrat-ExtraBoldItalic.ttf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="fonts/montserrat/Montserrat-ExtraLight.ttf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="fonts/montserrat/Montserrat-ExtraLightItalic.ttf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="fonts/montserrat/Montserrat-Italic.ttf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="fonts/montserrat/Montserrat-Light.ttf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="fonts/montserrat/Montserrat-LightItalic.ttf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="fonts/montserrat/Montserrat-Medium.ttf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="fonts/montserrat/Montserrat-MediumItalic.ttf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="fonts/montserrat/Montserrat-Regular.ttf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="fonts/montserrat/Montserrat-SemiBold.ttf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="fonts/montserrat/Montserrat-SemiBoldItalic.ttf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="fonts/montserrat/Montserrat-Thin.ttf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="fonts/montserrat/Montserrat-ThinItalic.ttf">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="fonts/montserrat/OFL.txt">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="fonts/poppins/Poppins-Black.ttf">
+      <publishTime>03/06/2015 01:00:00</publishTime>
+    </File>
+    <File Include="fonts/poppins/Poppins-BlackItalic.ttf">
+      <publishTime>03/06/2015 01:00:00</publishTime>
+    </File>
+    <File Include="fonts/poppins/Poppins-Bold.ttf">
+      <publishTime>03/06/2015 01:00:00</publishTime>
+    </File>
+    <File Include="fonts/poppins/Poppins-BoldItalic.ttf">
+      <publishTime>03/06/2015 01:00:00</publishTime>
+    </File>
+    <File Include="fonts/poppins/Poppins-ExtraBold.ttf">
+      <publishTime>03/06/2015 01:00:00</publishTime>
+    </File>
+    <File Include="fonts/poppins/Poppins-ExtraBoldItalic.ttf">
+      <publishTime>03/06/2015 01:00:00</publishTime>
+    </File>
+    <File Include="fonts/poppins/Poppins-ExtraLight.ttf">
+      <publishTime>03/06/2015 01:00:00</publishTime>
+    </File>
+    <File Include="fonts/poppins/Poppins-ExtraLightItalic.ttf">
+      <publishTime>03/06/2015 01:00:00</publishTime>
+    </File>
+    <File Include="fonts/poppins/Poppins-Italic.ttf">
+      <publishTime>03/06/2015 01:00:00</publishTime>
+    </File>
+    <File Include="fonts/poppins/Poppins-Light.ttf">
+      <publishTime>03/06/2015 01:00:00</publishTime>
+    </File>
+    <File Include="fonts/poppins/Poppins-LightItalic.ttf">
+      <publishTime>03/06/2015 01:00:00</publishTime>
+    </File>
+    <File Include="fonts/poppins/Poppins-Medium.ttf">
+      <publishTime>03/06/2015 01:00:00</publishTime>
+    </File>
+    <File Include="fonts/poppins/Poppins-MediumItalic.ttf">
+      <publishTime>03/06/2015 01:00:00</publishTime>
+    </File>
+    <File Include="fonts/poppins/Poppins-Regular.ttf">
+      <publishTime>03/06/2015 01:00:00</publishTime>
+    </File>
+    <File Include="fonts/poppins/Poppins-SemiBold.ttf">
+      <publishTime>03/06/2015 01:00:00</publishTime>
+    </File>
+    <File Include="fonts/poppins/Poppins-SemiBoldItalic.ttf">
+      <publishTime>03/06/2015 01:00:00</publishTime>
+    </File>
+    <File Include="fonts/poppins/Poppins-Thin.ttf">
+      <publishTime>03/06/2015 01:00:00</publishTime>
+    </File>
+    <File Include="fonts/poppins/Poppins-ThinItalic.ttf">
+      <publishTime>03/06/2015 01:00:00</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>12/24/2018 10:59:23</publishTime>
+    </File>
+    <File Include="Images/17da90ef-a952-47c8-a252-a48b64e3f111_slayt_7.png">
+      <publishTime>01/03/2019 16:06:05</publishTime>
+    </File>
+    <File Include="Images/1cc096d1-bf0b-45e4-bf82-15f1a303f01c_eti4.jpg">
+      <publishTime>01/03/2019 16:01:36</publishTime>
+    </File>
+    <File Include="Images/2310ac7d-971a-4709-97d5-f5f396f7183c_my4.jpg">
+      <publishTime>01/03/2019 16:00:18</publishTime>
+    </File>
+    <File Include="Images/26e7d565-2c15-4d1a-a00e-675841e745e8_eti6.jpg">
+      <publishTime>01/03/2019 16:07:04</publishTime>
+    </File>
+    <File Include="Images/39a8c3a2-ce1d-4ded-8dde-5700ed821bf6_my23.jpg">
+      <publishTime>01/03/2019 16:08:20</publishTime>
+    </File>
+    <File Include="Images/3d24abdd-785c-4ebf-bcc1-c9ee447ce5fc_slayt_6.png">
+      <publishTime>01/03/2019 16:06:03</publishTime>
+    </File>
+    <File Include="Images/3fa09d00-e8aa-4012-bd61-759ee3f5a8ba_referanslar 2.png">
+      <publishTime>01/03/2019 15:29:02</publishTime>
+    </File>
+    <File Include="Images/4076f296-901c-468e-917f-0a33de78a2f8_referanslar_1.png">
+      <publishTime>01/03/2019 15:29:05</publishTime>
+    </File>
+    <File Include="Images/42e16ccf-6fe0-4467-b5d1-8366313e030e_my2.jpg">
+      <publishTime>01/03/2019 15:29:48</publishTime>
+    </File>
+    <File Include="Images/5c0a99b4-74c7-4a94-bcae-d422a956213c_deneme2.png">
+      <publishTime>12/28/2018 14:09:54</publishTime>
+    </File>
+    <File Include="Images/6c7f8752-7092-4769-8ed1-f7a2a95cb970_my1.jpg">
+      <publishTime>01/03/2019 15:29:37</publishTime>
+    </File>
+    <File Include="Images/7586a885-aa03-4d0c-89ff-cefc3bc03fc9_eti2.jpg">
+      <publishTime>01/03/2019 16:01:26</publishTime>
+    </File>
+    <File Include="Images/879870dd-2960-40e2-b2bf-995dece9081a_ambalaj1.jpg">
+      <publishTime>01/03/2019 16:00:51</publishTime>
+    </File>
+    <File Include="Images/97c432de-a71e-49c6-9345-ea871ac6d99b_deneme2.png">
+      <publishTime>12/28/2018 13:51:09</publishTime>
+    </File>
+    <File Include="Images/9fa66feb-69fc-4fb8-8aee-e2538b486dec_eti1.jpg">
+      <publishTime>01/03/2019 16:01:18</publishTime>
+    </File>
+    <File Include="Images/ae3423cc-e702-4795-9852-192544ea1a50_logo.png">
+      <publishTime>12/27/2018 23:53:10</publishTime>
+    </File>
+    <File Include="Images/be5fbbaa-73b0-49a5-8afd-c7ea8c71f738_slayt_2.png">
+      <publishTime>01/03/2019 16:06:01</publishTime>
+    </File>
+    <File Include="Images/dec9158f-8ab4-42f3-b72a-04a9618b725e_amblaj5.jpg">
+      <publishTime>01/03/2019 16:06:44</publishTime>
+    </File>
+    <File Include="Images/deneme3.png">
+      <publishTime>12/28/2018 10:06:07</publishTime>
+    </File>
+    <File Include="Images/e1362f1c-2c90-434f-b382-dbd46991bf5d_my11.jpg">
+      <publishTime>01/03/2019 16:07:18</publishTime>
+    </File>
+    <File Include="Images/e7fca352-d2e2-423f-af0e-d5fe2e083338_eti3.jpg">
+      <publishTime>01/03/2019 16:01:31</publishTime>
+    </File>
+    <File Include="Images/e849972a-77d8-4ea2-b0d7-0a3a9e1ba8ed_my3.jpg">
+      <publishTime>01/03/2019 15:29:55</publishTime>
+    </File>
+    <File Include="Images/ec54d26f-c5ce-442b-b917-cdfb7e7dd257_amblaj3.jpg">
+      <publishTime>01/03/2019 16:01:04</publishTime>
+    </File>
+    <File Include="Images/ed21d196-b91c-4bb7-acff-c09bf5515c41_slayt_1.png">
+      <publishTime>01/03/2019 16:05:57</publishTime>
+    </File>
+    <File Include="Images/ed549e83-f552-4479-8e81-d48447f1882c_amblaj2.jpg">
+      <publishTime>01/03/2019 16:00:58</publishTime>
+    </File>
+    <File Include="Images/ef3d9fb5-5dbf-447a-b47d-1e8e263c229a_amblaj1.jpg">
+      <publishTime>01/03/2019 16:00:54</publishTime>
+    </File>
+    <File Include="Images/f5950bcd-adb8-4ed4-9637-38e602bf29f7_10kasim.jpg">
+      <publishTime>12/28/2018 09:49:18</publishTime>
+    </File>
+    <File Include="Images/icons/favicon.ico">
+      <publishTime>01/21/2016 11:45:32</publishTime>
+    </File>
+    <File Include="Images/img-01.png">
+      <publishTime>12/16/2017 21:27:54</publishTime>
+    </File>
+    <File Include="Images/referanslar_1.png">
+      <publishTime>12/24/2018 15:12:34</publishTime>
+    </File>
+    <File Include="Images/referanslar_2.png">
+      <publishTime>12/24/2018 15:12:15</publishTime>
+    </File>
+    <File Include="Images/Web/-P-duvar-gemici takvimi.JPG">
+      <publishTime>12/04/2017 15:24:50</publishTime>
+    </File>
+    <File Include="Images/Web/Baharat_Kutulari.jpg">
+      <publishTime>02/19/2015 13:00:28</publishTime>
+    </File>
+    <File Include="Images/Web/Karton_Etiketler.jpg">
+      <publishTime>02/19/2015 12:56:46</publishTime>
+    </File>
+    <File Include="Images/Web/mukavva kapaklı kataloglar.JPG">
+      <publishTime>12/04/2017 17:33:00</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>12/24/2018 10:59:45</publishTime>
+    </File>
+    <File Include="Scripts/ai.0.22.9-build00167.js">
+      <publishTime>12/24/2018 10:59:45</publishTime>
+    </File>
+    <File Include="Scripts/ai.0.22.9-build00167.min.js">
+      <publishTime>12/24/2018 10:59:45</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>12/24/2018 10:59:25</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>12/24/2018 10:59:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>12/24/2018 10:59:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>12/24/2018 10:59:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>12/24/2018 10:59:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery.min.js">
+      <publishTime>01/30/2018 06:10:36</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>12/24/2018 10:59:30</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>12/24/2018 10:59:30</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>12/24/2018 10:59:31</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>12/24/2018 10:59:31</publishTime>
+    </File>
+    <File Include="Scripts/metisMenu.min.js">
+      <publishTime>01/30/2018 06:10:36</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>12/24/2018 10:59:29</publishTime>
+    </File>
+    <File Include="Scripts/morris-data.js">
+      <publishTime>01/30/2018 06:10:36</publishTime>
+    </File>
+    <File Include="Scripts/morris.min.js">
+      <publishTime>01/30/2018 06:10:36</publishTime>
+    </File>
+    <File Include="Scripts/PopUp.js">
+      <publishTime>12/27/2018 10:57:58</publishTime>
+    </File>
+    <File Include="Scripts/raphael.min.js">
+      <publishTime>01/30/2018 06:10:36</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>12/24/2018 10:59:30</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>12/24/2018 10:59:30</publishTime>
+    </File>
+    <File Include="Scripts/sb-admin-2.min.js">
+      <publishTime>01/30/2018 06:10:36</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>01/04/2019 15:34:00</publishTime>
+    </File>
+    <File Include="vendor/animate/animate.css">
+      <publishTime>08/31/2017 13:02:26</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap-grid.css">
+      <publishTime>10/08/2017 21:52:10</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap-grid.css.map">
+      <publishTime>10/08/2017 21:52:10</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap-grid.min.css">
+      <publishTime>10/08/2017 21:52:12</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap-grid.min.css.map">
+      <publishTime>10/08/2017 21:52:12</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap-reboot.css">
+      <publishTime>10/08/2017 21:52:10</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap-reboot.css.map">
+      <publishTime>10/08/2017 21:52:10</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap-reboot.min.css">
+      <publishTime>10/08/2017 21:52:14</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap-reboot.min.css.map">
+      <publishTime>10/08/2017 21:52:14</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap.css">
+      <publishTime>10/08/2017 21:52:10</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap.css.map">
+      <publishTime>10/08/2017 21:52:10</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap.min.css">
+      <publishTime>10/08/2017 21:52:12</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap.min.css.map">
+      <publishTime>10/08/2017 21:52:12</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/js/bootstrap.js">
+      <publishTime>10/08/2017 21:51:22</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/js/bootstrap.min.js">
+      <publishTime>10/08/2017 21:51:22</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/js/popper.js">
+      <publishTime>09/27/2017 18:59:16</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/js/popper.min.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/js/tooltip.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="vendor/css-hamburgers/hamburgers.css">
+      <publishTime>08/16/2017 22:45:52</publishTime>
+    </File>
+    <File Include="vendor/css-hamburgers/hamburgers.min.css">
+      <publishTime>08/16/2017 22:45:52</publishTime>
+    </File>
+    <File Include="vendor/jquery/jquery-3.2.1.min.js">
+      <publishTime>07/28/2017 12:24:16</publishTime>
+    </File>
+    <File Include="vendor/select2/select2.css">
+      <publishTime>08/23/2017 21:04:24</publishTime>
+    </File>
+    <File Include="vendor/select2/select2.js">
+      <publishTime>08/23/2017 21:40:06</publishTime>
+    </File>
+    <File Include="vendor/select2/select2.min.css">
+      <publishTime>08/23/2017 21:52:38</publishTime>
+    </File>
+    <File Include="vendor/select2/select2.min.js">
+      <publishTime>08/23/2017 21:52:52</publishTime>
+    </File>
+    <File Include="vendor/tilt/tilt.jquery.min.js">
+      <publishTime>09/11/2017 03:15:48</publishTime>
+    </File>
+    <File Include="Views/Admin/AmbalajYonetim.cshtml">
+      <publishTime>12/27/2018 16:36:55</publishTime>
+    </File>
+    <File Include="Views/Admin/HakkimizdaYonetim.cshtml">
+      <publishTime>01/02/2019 16:41:42</publishTime>
+    </File>
+    <File Include="Views/Admin/Index.cshtml">
+      <publishTime>01/04/2019 15:39:59</publishTime>
+    </File>
+    <File Include="Views/Admin/KullaniciEkle.cshtml">
+      <publishTime>01/04/2019 15:09:32</publishTime>
+    </File>
+    <File Include="Views/Admin/KullaniciListesi.cshtml">
+      <publishTime>01/04/2019 15:06:46</publishTime>
+    </File>
+    <File Include="Views/Admin/MasaustuYonetim.cshtml">
+      <publishTime>12/27/2018 16:36:05</publishTime>
+    </File>
+    <File Include="Views/Admin/PromosyonYonetim.cshtml">
+      <publishTime>12/27/2018 16:35:36</publishTime>
+    </File>
+    <File Include="Views/Admin/RefYonetim.cshtml">
+      <publishTime>12/27/2018 16:35:09</publishTime>
+    </File>
+    <File Include="Views/Admin/StickerYonetim.cshtml">
+      <publishTime>12/27/2018 16:34:30</publishTime>
+    </File>
+    <File Include="Views/Admin/Ufakresim.cshtml">
+      <publishTime>12/28/2018 09:48:49</publishTime>
+    </File>
+    <File Include="Views/Admin/Yonetim.cshtml">
+      <publishTime>12/27/2018 16:20:31</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>12/25/2018 10:03:37</publishTime>
+    </File>
+    <File Include="Views/Home/Ambalaj.cshtml">
+      <publishTime>01/04/2019 11:14:49</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>01/04/2019 11:40:52</publishTime>
+    </File>
+    <File Include="Views/Home/Etiket.cshtml">
+      <publishTime>01/04/2019 11:14:03</publishTime>
+    </File>
+    <File Include="Views/Home/Hakkimizda.cshtml">
+      <publishTime>01/04/2019 11:40:19</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>01/04/2019 11:09:03</publishTime>
+    </File>
+    <File Include="Views/Home/MasaustuYayincilik.cshtml">
+      <publishTime>01/04/2019 11:39:48</publishTime>
+    </File>
+    <File Include="Views/Home/Promosyon.cshtml">
+      <publishTime>01/04/2019 11:39:08</publishTime>
+    </File>
+    <File Include="Views/Home/Refereanslar.cshtml">
+      <publishTime>01/04/2019 11:41:44</publishTime>
+    </File>
+    <File Include="Views/Shared/_Alayout.cshtml">
+      <publishTime>01/04/2019 15:06:10</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>01/04/2019 15:57:30</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>12/24/2018 10:59:23</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>12/24/2018 10:59:23</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/04/2019 15:11:38</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

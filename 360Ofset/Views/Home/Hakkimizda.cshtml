@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewBag.Title = "Hakkimizda";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<br />
+<br />
+<div class="page-wrapper">
+    <div class="sixteen columns ">
+        <div class="stunning-text-wrapper">
+            <h1 class="stunning-text-title">Hakkımızda</h1> <div class="stunning-text-caption">
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+    </div>
+    <div class='gdl-page-float-left'>
+        <div class='gdl-page-item'>
+            <div class="sixteen columns "><div class="divider"><div class="scroll-top"></div></div></div>
+            <br class="clear">
+            @foreach (var item in ViewBag.HakK)
+            {
+                <div class="sixteen columns">
+                    @item.HakkimizdaAc
+                </div>
+            }
+
+            <br class="clear">
+            <div class="sixteen columns ">
+                <div class="stunning-text-wrapper">
+                    <h1 class="stunning-text-title">Vizyonumuz !</h1>
+                    <div class="stunning-text-caption">
+                        Karlı ve Yüksek oranlı büyümeyi sürdürülebilir hale getirerek,
+                        kalite ve fiyatta rekabet edilemez bir noktaya ulaşıp, Matbaa, Etiket ve Ambalaj sektöründe
+                        güvenilen, tercih edilen, her aşamada kaliteden ödün vermeyen lider kuruluş ve markası olmaktır
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div><br class="clear"><div class="sixteen columns ">
+                <div class="stunning-text-wrapper">
+                    <h1 class="stunning-text-title">Misyonumuz !</h1>
+                    <div class="stunning-text-caption">
+                        "Kaliteli Üretim" İlkesi ve "Mamül Değil Hizmet Üretiyoruz"
+                        Sloganıyla müşteri memnuniyetini en üst seviyeye çıkartmak, son teknoloji ve nitelikli personeli
+                        ile müşterilerimize "Uygun Maliyetli" ve "Çevreci" Ürünler Sunmaktır.
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br class="clear">
+</div>

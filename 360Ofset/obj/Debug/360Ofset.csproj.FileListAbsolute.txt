@@ -1,0 +1,252 @@
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\ApplicationInsights.config
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\roslyn\csc.exe
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\roslyn\vbc.exe
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\roslyn\VBCSCompiler.exe
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\360Ofset.dll.config
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\360Ofset.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\360Ofset.pdb
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Antlr3.Runtime.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\EntityFramework.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\EntityFramework.SqlServer.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AI.Web.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.ApplicationInsights.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Newtonsoft.Json.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Owin.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.Helpers.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.Mvc.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.Optimization.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.Razor.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.WebPages.Deployment.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.WebPages.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.WebPages.Razor.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\WebGrease.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AI.Web.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.ApplicationInsights.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.Helpers.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.Mvc.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.Optimization.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.Razor.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.WebPages.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.WebPages.Deployment.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.WebPages.Razor.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Antlr3.Runtime.pdb
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Newtonsoft.Json.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\EntityFramework.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\EntityFramework.SqlServer.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\obj\Debug\360Ofset.csprojResolveAssemblyReference.cache
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\obj\Debug\360Ofset.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\obj\Debug\360Ofset.pdb
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\ApplicationInsights.config
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\roslyn\csc.exe
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\roslyn\vbc.exe
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\roslyn\VBCSCompiler.exe
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\360Ofset.dll.config
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\360Ofset.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\360Ofset.pdb
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Antlr3.Runtime.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Dal.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\EntityFramework.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\EntityFramework.SqlServer.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.AI.Web.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.ApplicationInsights.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.Owin.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.Owin.Security.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Newtonsoft.Json.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Owin.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\System.Web.Helpers.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\System.Web.Mvc.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\System.Web.Optimization.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\System.Web.Razor.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\System.Web.WebPages.Deployment.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\System.Web.WebPages.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\System.Web.WebPages.Razor.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\WebGrease.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Dal.pdb
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.AI.Web.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.ApplicationInsights.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\System.Web.Helpers.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\System.Web.Mvc.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\System.Web.Optimization.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\System.Web.Razor.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\System.Web.WebPages.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\System.Web.WebPages.Deployment.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\System.Web.WebPages.Razor.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Antlr3.Runtime.pdb
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Newtonsoft.Json.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\EntityFramework.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\EntityFramework.SqlServer.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.Owin.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.Owin.Security.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\obj\Debug\360Ofset.csprojResolveAssemblyReference.cache
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\obj\Debug\360Ofset.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset - Yedek\360Ofset\obj\Debug\360Ofset.pdb
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Dal.dll
+C:\Users\burak.sahin\Desktop\TechNoRob\360Ofset\360Ofset\bin\Dal.pdb
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\ApplicationInsights.config
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\roslyn\csc.exe
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\roslyn\vbc.exe
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\roslyn\VBCSCompiler.exe
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\360Ofset.dll.config
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\360Ofset.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\360Ofset.pdb
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Antlr3.Runtime.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Dal.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\EntityFramework.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\EntityFramework.SqlServer.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AI.Web.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Newtonsoft.Json.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Owin.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.Helpers.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.Mvc.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.Optimization.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.Razor.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.WebPages.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.WebPages.Razor.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\WebGrease.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Dal.pdb
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AI.Web.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.Helpers.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.Mvc.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.Optimization.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.Razor.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.WebPages.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\System.Web.WebPages.Razor.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Antlr3.Runtime.pdb
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Newtonsoft.Json.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\EntityFramework.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\EntityFramework.SqlServer.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\obj\Debug\360Ofset.csprojResolveAssemblyReference.cache
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\obj\Debug\360Ofset.dll
+C:\Users\Vudu\Desktop\TechNoRob\360Ofset\360Ofset\obj\Debug\360Ofset.pdb

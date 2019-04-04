@@ -1,0 +1,87 @@
+﻿@model _360Ofset.Models.MasaDB
+
+@{
+    ViewBag.Title = "MasaustuYonetim";
+    Layout = "~/Views/Shared/_Alayout.cshtml";
+}
+
+
+    @Html.AntiForgeryToken()
+
+    <form action="/Admin/MasaUpload" method="post" enctype="multipart/form-data">
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.MasaResim, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-4">
+                    <input type="file" name="uploadfile" id="uploadfile" />
+                    @Html.ValidationMessageFor(model => model.MasaResim, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.MasaBaslik, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-4">
+                    @Html.EditorFor(model => model.MasaBaslik, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.MasaBaslik, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.MasaAciklama, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-4">
+                    @Html.TextAreaFor(model => model.MasaAciklama, new { htmlAttributes = new { @class = "form-control", @style = "margin:0px; width:387px; height:69px;" } })
+                    @Html.ValidationMessageFor(model => model.MasaAciklama, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Kaydet" class="btn btn-success" />
+                </div>
+            </div>
+        </div>
+    </form>
+
+        <table class="table table-striped" style="width:552px; height:100px;">
+            <thead>
+                <tr>
+                    <th style="width:188px;">
+                        Resim
+                    </th>
+                    <th style="width:188px;">
+                        Resim Başlığı
+                    </th>
+
+                    <th style="width:188px;">
+                        Resim Açıklaması
+                    </th>
+                    <th style="width:188px;">
+                        İşlem
+                    </th>
+                </tr>
+            </thead>
+            @foreach (var item in ViewBag.Masa)
+            {
+                <tbody>
+                    <tr>
+                        <td style="width:188px;">
+                            <img src="@item.MasaResim" alt="" style="width:100px; height:100px;" />
+                        </td>
+                        <td style="width:188px;">
+                            <div class="gdl-slider-title">@item.MasaBaslik</div>
+                        </td>
+                        <td style="width:188px;">
+                            @item.MasaAciklama
+                        </td>
+                        <td style="width:188px;">
+                            @Html.ActionLink("Sil", "MasaSil", new { @item.ID }, new { @class = "btn btn-danger" })
+                        </td>
+                    </tr>
+
+                </tbody>
+            }
+        </table>
+

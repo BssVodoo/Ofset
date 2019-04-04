@@ -1,0 +1,58 @@
+﻿@model _360Ofset.Models.HakkimizdaDB
+
+@{
+    ViewBag.Title = "Hakkimizda Yonetim";
+    Layout = "~/Views/Shared/_Alayout.cshtml";
+}
+
+<h2>Hakkimizda Yonetim</h2>
+
+<form action="/Admin/HakkimizdaYonetim" method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.HakkimizdaAc, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-4">
+                @Html.TextAreaFor(model => model.HakkimizdaAc, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.HakkimizdaAc, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Kaydet" class="btn btn-success" />
+            </div>
+        </div>
+    </div>
+</form>
+
+
+<table class="table table-striped" style="width:552px; height:100px;">
+    <thead>
+        <tr>
+
+            <th style="width:188px;">
+                Hakkımzıda
+            </th>
+            <th style="width:188px;">
+                İşlem
+            </th>
+        </tr>
+    </thead>
+    @foreach (var item in ViewBag.Hak)
+    {
+        <tbody>
+            <tr>
+                <td style="width:188px;">
+                    @item.HakkimizdaAc
+                </td>
+                <td style="width:188px;">
+                    @Html.ActionLink("Sil", "HakSil", new { @item.ID }, new { @class = "btn btn-danger" })
+                </td>
+            </tr>
+        </tbody>
+    }
+</table>
+

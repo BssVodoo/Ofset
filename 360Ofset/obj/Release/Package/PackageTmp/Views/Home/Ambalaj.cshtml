@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewBag.Title = "Ambalaj";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<br />
+<div class="page-wrapper">
+
+    <div class='gdl-page-float-left'>
+        <div class='gdl-page-item'>
+            <div class="sixteen columns ">
+                <div class="stunning-text-wrapper">
+                    <h1 class="stunning-text-title"> Ambalaj;</h1> <div class="stunning-text-caption">
+                        Markanızı akılda tutan çözümler...
+                    </div> 
+                    <div class="clear">
+                    </div>
+                </div>
+            </div>
+            <br class="clear">
+            <div class="sixteen columns wrapper gdl-portfolio-item mb0">
+                <div class="clear">
+                </div>
+                <div id="portfolio-item-holder" class="portfolio-item-holder">
+                    @foreach (var item in ViewBag.Ambal)
+                    {
+                        <div class="four columns promosyon  portfolio-item gdl-portfolio" data-color="#888888" data-color-hover="#efefef" data-bg="#f5f5f5" data-bg-hover="#171717" style="background-color:#f5f5f5;">
+                            <div class="portfolio-thumbnail-slider">
+                                <div class="flexslider">
+                                    <ul class="slides">
+                                        <li>
+                                            <img src="@item.AResim" alt="" />
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="portfolio-thumbnail-context">
+                                <h2 class="portfolio-thumbnail-title port-title-color gdl-title">
+                                   <button class="myBtn" id="@item.ID" onclick="getirlen(this.id)">@item.ABaslik</button>
+                                </h2>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <div class="clear"> </div>
+            </div>
+        </div>
+    </div>
+    <br class="clear">
+</div>
+@foreach (var item in ViewBag.Ambal)
+{
+    <div id="@item.ID+modal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content" style="width:950px; height:450px;">
+            <span class="close" onclick="kapat()">&times;</span>
+            <div style="margin-left:450px">
+                <p>@item.AAciklama</p>
+                </div>
+            </div>
+
+        </div>
+        }

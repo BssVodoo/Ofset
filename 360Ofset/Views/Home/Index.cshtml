@@ -1,0 +1,142 @@
+﻿
+@{
+    ViewBag.Title = "Anasayfa";
+}
+<div class="page-wrapper">
+    <div class="sixteen columns mb0" style="margin-top: 45px;">
+        <div class="slider-wrapper fullwidth">
+            <div class="flexslider">
+                <ul class="slides">
+
+                    @foreach (var item in ViewBag.Slider)
+                    {
+                    <li>
+                        <img src="@item.ResimUrl" alt="" />
+                        <div class="flex-caption gdl-slider-caption">
+                            <div class="gdl-slider-title">@item.RBaslik</div>
+                            <div class="slider-title-bar">
+                            </div>
+                            @item.RAciklama
+                        </div>
+                    </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class='gdl-page-float-left'>
+        <div class='gdl-page-item'>
+            <br class="clear">
+            <div class="four columns ">
+                <div class="column-service-wrapper">
+                    <div class="column-service-title-wrapper">
+                        <div class='column-service-image'>
+                            <img src='../Content/logomsu.png' alt='Matbaa' />
+                        </div>
+                        <h2 class="column-service-title gdl-title">Masaüstü Yayıncılık</h2>
+                        <div class="clear">
+                        </div>
+                    </div>
+                    <div class="column-service-content">
+                        Bilgisayar destekli olarak, baskı ya da yayına hazırlama işidir...
+                    </div>
+                    <div class="column-service-learn-more">
+                        <a href="~/Home/MasaustuYayincilik">Daha fazla...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns ">
+                <div class="column-service-wrapper">
+                    <div class="column-service-title-wrapper">
+                        <div class='column-service-image'>
+                            <img src='../Content/logomsu.png' alt='Serigrafi Baskı' />
+                        </div>
+                        <h2 class="column-service-title gdl-title">
+                            Ambalaj
+                        </h2>
+                        <div class="clear">
+                        </div>
+                    </div>
+                    <div class="column-service-content">
+                        Ürünlerinize katabileceğiniz ayrıcalıklar...
+                    </div>
+                    <div class="column-service-learn-more">
+                        <a href="~/Home/Ambalaj">
+                            Daha fazla...
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns ">
+                <div class="column-service-wrapper">
+                    <div class="column-service-title-wrapper">
+                        <div class='column-service-image'>
+                            <img src='../Content/logomsu.png' alt='Promosyon' />
+                        </div>
+                        <h2 class="column-service-title gdl-title">
+                            Sticker (Etiket)
+                        </h2>
+                        <div class="clear">
+                        </div>
+                    </div>
+                    <div class="column-service-content">
+                        Markanızı akılda tutan çözümler sunuyoruz...
+                    </div>
+                    <div class="column-service-learn-more">
+                        <a href="~/Home/Etiket">Daha fazla...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns ">
+                <div class="column-service-wrapper">
+                    <div class="column-service-title-wrapper">
+                        <div class='column-service-image'>
+                            <img src='../Content/logomsu.png' alt='Etiket Baskı' />
+                        </div><h2 class="column-service-title gdl-title">
+                            Promosyon
+                        </h2>
+                        <div class="clear">
+                        </div>
+                    </div>
+                    <div class="column-service-content">Çok seçenekli ve her sektöre uygun kaliteli ürünler...</div>
+                    <div class="column-service-learn-more">
+                        <a href="~/Home/Promosyon">Daha fazla...</a>
+                    </div>
+                </div>
+            </div>
+            <br class="clear">
+            @foreach (var item in ViewBag.Anas)
+            {
+                <div class="four columns wrapper gdl-portfolio-item mb0">
+                    <div class="clear">
+                    </div>
+                    <div id="portfolio-item-holder" class="portfolio-item-holder">
+                        <div class="four columns home-2 matbaa  portfolio-item gdl-portfolio" data-color="#888888" data-color-hover="#efefef" data-bg="#f5f5f5" data-bg-hover="#171717" style="background-color:#f5f5f5;">
+                            <div class="portfolio-thumbnail-slider" style="height:200px; width:200px;">
+                                <div class="flexslider">
+                                    <ul class="slides">
+                                        <li>
+
+                                            <img src="@item.Aresim" />
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="portfolio-thumbnail-context">
+                                <h2 class="portfolio-thumbnail-title port-title-color gdl-title">
+                                        @item.ABaslik
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear">
+
+                    </div>
+                </div>
+            }
+            <br class="clear">
+
+        </div>
+    </div>
+    <br class="clear">
+</div>

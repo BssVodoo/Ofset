@@ -1,0 +1,1158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5CF9D5D7-44D1-4C82-AE9E-1A2DF1F8DA95}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_360Ofset</RootNamespace>
+    <AssemblyName>360Ofset</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.0.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.0.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.0.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.0.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.0.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.0.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.1\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.1\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.1\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.1\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\IdentityConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\AmbalajDB.cs" />
+    <Compile Include="Models\AnasayfaDB.cs" />
+    <Compile Include="Models\HakkimizdaDB.cs" />
+    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ImagesDB.cs" />
+    <Compile Include="Models\KullaniciDB.cs" />
+    <Compile Include="Models\Mail.cs" />
+    <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MasaDB.cs" />
+    <Compile Include="Models\PromosyonDB.cs" />
+    <Compile Include="Models\RefImagesDB.cs" />
+    <Compile Include="Models\StickerDB.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\newlogo.png" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\firmaya özel ajanda.JPG" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\Geri_DonusumluGida_Ambalajlari.jpg" />
+    <Content Include="Content\Logo Ofset.png" />
+    <Content Include="Content\logomsu.png" />
+    <Content Include="Content\metisMenu.min.css" />
+    <Content Include="Content\morris.css" />
+    <Content Include="Content\sb-admin-2.css" />
+    <Content Include="Content\Up.css" />
+    <Content Include="Content\wp-content\plugins\jetpack\css\jetpack0899.css" />
+    <Content Include="Content\wp-content\plugins\jetpack\modules\carousel\images\arrows-2x.png" />
+    <Content Include="Content\wp-content\plugins\jetpack\modules\carousel\images\arrows.png" />
+    <Content Include="Content\wp-content\plugins\jetpack\modules\carousel\images\carousel-sprite-2xe4da.png" />
+    <Content Include="Content\wp-content\plugins\jetpack\modules\carousel\images\carousel-spritee4da.png" />
+    <Content Include="Content\wp-content\plugins\jetpack\modules\shortcodes\images\collapse.png" />
+    <Content Include="Content\wp-content\plugins\jetpack\modules\shortcodes\images\expand.png" />
+    <Content Include="Content\wp-content\plugins\jetpack\modules\shortcodes\images\slide-nav.png" />
+    <Content Include="Content\wp-content\plugins\jetpack\modules\shortcodes\img\slideshow-controls-2x.png" />
+    <Content Include="Content\wp-content\plugins\jetpack\modules\shortcodes\img\slideshow-controls.png" />
+    <Content Include="Content\wp-content\plugins\jetpack\modules\wpgrohoce52.js" />
+    <Content Include="Content\wp-content\plugins\wp-whatsapp-chat\css\stylece52.css" />
+    <Content Include="Content\wp-content\plugins\wpforms-lite\assets\css\wpforms-full6aad.css" />
+    <Content Include="Content\wp-content\plugins\wpforms-lite\assets\js\jquery.validate.min24fc.js" />
+    <Content Include="Content\wp-content\plugins\wpforms-lite\assets\js\wpforms6aad.js" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\flex-slider\bg_direction_nav_custom.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\gradient-bottom4-32px.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\gradient-top4-32px.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\gradient-vertical-6px.html" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\icon\dark\arrow4.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\icon\dark\author.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\icon\dark\calendar.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\icon\dark\comment.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\icon\dark\find-17px.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\icon\dark\link-small.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\icon\dark\minus-24px.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\icon\dark\navigation-20px.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\icon\dark\plus-24px.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\icon\dark\port-nav.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\icon\dark\quotes-18px.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\icon\dark\social\facebook.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\icon\dark\social\googleplus.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\icon\dark\social\twitter.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\icon\dark\stunning-text-bg.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\icon\dark\stunning-text-corner.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\icon\dark\tag.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\icon\dark\title-bg.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\icon\light\arrow4.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\icon\light\calendar.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\icon\light\comment.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\icon\light\find-17px.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\image-overlay-link.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\image-overlay-video.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\image-overlay.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\list\arrow.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\list\arrow2.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\list\arrow3.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\list\bullet.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\list\bullet2.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\list\bullet3.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\list\check.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\list\check2.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\list\check3.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\list\delete.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\list\delete2.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\list\delete3.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\loading.gif" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\nivo-slider\bg_direction_nav_custom.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\portfolio-overlay.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\dark_rounded\btnNext.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\dark_rounded\btnPrevious.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\dark_rounded\contentPattern.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\dark_rounded\loader.gif" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\dark_rounded\sprite.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\dark_square\btnNext.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\dark_square\btnPrevious.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\dark_square\loader.gif" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\dark_square\sprite.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\default\default_thumb.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\default\loader.gif" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\default\sprite.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\default\sprite_next.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\default\sprite_prev.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\default\sprite_x.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\default\sprite_y.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\facebook\btnNext.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\facebook\btnPrevious.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\facebook\contentPatternBottom.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\facebook\contentPatternLeft.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\facebook\contentPatternRight.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\facebook\contentPatternTop.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\facebook\default_thumbnail.gif" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\facebook\loader.gif" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\facebook\sprite.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\light_rounded\btnNext.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\light_rounded\btnPrevious.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\light_rounded\loader.gif" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\light_rounded\sprite.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\light_square\btnNext.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\light_square\btnPrevious.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\prettyPhoto\light_square\sprite.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\images\thumbnail-nav.png" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\javascript\gdl-scripts5152.js" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\javascript\hoverIntent5152.js" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\javascript\jquery.anythingslider5152.js" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\javascript\jquery.easing5152.js" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\javascript\jquery.fitvids5152.js" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\javascript\jquery.flexslider5152.js" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\javascript\jquery.prettyPhoto5152.js" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\javascript\superfish5152.js" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\javascript\supersub5152.js" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\style-customce52.css" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\style.css" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\stylesheet\anythingsliderce52.css" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\stylesheet\flexsliderce52.css" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\stylesheet\layout-responsive.css" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\stylesheet\prettyPhotoce52.css" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\stylesheet\skeleton-responsive.css" />
+    <Content Include="Content\wp-content\themes\goodspace_v1-07\stylesheet\superfishce52.css" />
+    <Content Include="Content\wp-content\uploads\2015\06\bacground_black_low.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\E.png" />
+    <Content Include="Content\wp-content\uploads\2015\06\favicon-150x150.gif" />
+    <Content Include="Content\wp-content\uploads\2015\06\M.png" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-ambalaj-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-ambalaj-02-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-ambalaj-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-ambalaj-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-brosur-01-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-brosur-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-brosur-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-brosur-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-brosur-04-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-brosur-flayer-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-brosur-flayer-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-davetiye-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-davetiye-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-davetiye-ahsap-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-davetiye-ahsap-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-davetiye-seffaf-01-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-davetiye-seffaf-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-davetiye-seffaf-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-davetiye-seffaf-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kartela-01-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kartela-01-580x482.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kartela-01-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kartela-02-580x482.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kartela-03-580x482.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kartela-04-580x482.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kartela-05-580x482.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kartela-06-580x482.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-karton-poset-canta-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-karton-poset-canta-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-karton-poset-canta-03-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-karton-poset-canta-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-karton-poset-canta-03-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-karton-poset-canta-04-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-karton-poset-canta-05-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-karton-poset-canta-06-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-karton-poset-canta-07-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kartvizit-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kartvizit-02-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kartvizit-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kartvizit-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kartvizit-ahsap-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kartvizit-ahsap-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kartvizit-lakli-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kartvizit-lakli-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kartvizit-metal-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kartvizit-metal-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kartvizit-metal-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kartvizit-metal-04-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kartvizit-metal-05-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-katalog-01-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-katalog-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-katalog-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-katalog-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-katalog-04-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-katalog-05-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kazi-kazan-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kazi-kazan-02-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kazi-kazan-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kazi-kazan-02-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-kazi-kazan-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-klasor-01-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-klasor-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-klasor-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-klasor-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-klasor-04-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-klasor-05-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-restoran-menu-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-restoran-menu-02-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-restoran-menu-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-restoran-menu-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-restoran-menu-ahsap-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-restoran-menu-deri-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-restoran-menu-isikli-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-soguk-tutkal-01-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-soguk-tutkal-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-soguk-tutkal-01-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-soguk-tutkal-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-sunum-dosyasi-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-sunum-dosyasi-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-sunum-dosyasi-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-sunum-dosyasi-04-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-sunum-dosyasi-05-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-sunum-dosyasi-06-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-sunum-dosyasi-07-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\matbaa-sunum-dosyasi-07-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\P.png" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-bardak-altligi-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-bardak-altligi-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-bardak-altligi-cam-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-bardak-altligi-tas-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-bardak-altligi-tas-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-bardak-altligi-tas-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-baskili-kalem-01-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-baskili-kalem-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-baskili-kalem-01-940x350.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-baskili-kalem-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-baskili-kalem-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-baskili-kalem-04-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-cetvel-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-cetvel-02-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-cetvel-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-cetvel-02-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-defter-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-defter-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-defter-03-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-defter-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-defter-04-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-defter-05-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-donkart-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-donkart-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-donkart-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-donkart-04-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-donkart-04-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-duvar-saati-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-duvar-saati-ahsap-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-duvar-saati-cam-01-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-duvar-saati-cam-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-duvar-saati-cam-01-940x350.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-duvar-saati-cam-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-duvar-saati-cam-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-kristal-01-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-kristal-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-kristal-01-940x350.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-kristal-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-kristal-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-kristal-04-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-kristal-05-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-kristal-06-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-kristal-07-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-magnet-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-magnet-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-magnet-cerceve-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-magnet-cerceve-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-magnet-poster-cerceve-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-magnet-poster-cerceve-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-mousepad-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-mousepad-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-mousepad-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-mousepad-04-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-mousepad-04-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-mousepad-04-940x350.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-mousepad-05-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-plastik-pvc-urunler-dosya-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-plastik-pvc-urunler-dosya-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-plastik-pvc-urunler-dosya-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-plastik-pvc-urunler-klasor-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-plastik-pvc-urunler-sekreterlik-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-plastik-pvc-urunler-zarf-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-plastik-pvc-urunler-zarf-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-plastik-pvc-urunler-zarf-940x350.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-usb-flash-disk-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-usb-flash-disk-02-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-usb-flash-disk-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-usb-flash-disk-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-usb-flash-disk-anahtar-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-usb-flash-disk-kart-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-usb-flash-disk-kart-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-usb-flash-disk-kart-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-wobbler-01-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-wobbler-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-wobbler-01-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-wobbler-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\promosyon-wobbler-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\referanslar.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\S.png" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-01-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-01.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-02-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-02.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-03-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-03.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-04-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-04.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-05-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-05.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-06-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-06.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-07-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-07.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-08-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-08.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-09-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-09.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-10-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-10.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-11-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-11.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-12-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-12.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-13-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-13.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-14-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-14.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-15-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-15.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-16-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-16.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-17-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-17.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-18-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-18.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-19-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-19.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-20-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-20.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-21-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-21.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-22-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-22.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-23-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-23.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-24-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-24.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-25-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-25.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-26-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-26.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-27-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-27.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-28-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-28.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-29-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-29.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-30-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-30.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-31-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-31.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-32-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-32.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-33-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-33.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-34-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-34.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-35-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-35.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-36-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-36.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-37-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-37.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-38-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-38.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-39-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-39.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-40-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\seffaf-kartvizit-40.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-aluminyum-etiket-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-aluminyum-etiket-02-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-aluminyum-etiket-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-aluminyum-etiket-02-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-aluminyum-etiket-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-aluminyum-etiket-04-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-amerikan-servis-01-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-amerikan-servis-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-amerikan-servis-01-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-amerikan-servis-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-leksan-etiket-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-leksan-etiket-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-leksan-etiket-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-leksan-etiket-04-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-leksan-etiket-04-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-leksan-etiket-04-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-leksan-etiket-05-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-tampon-baski-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-tampon-baski-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-tampon-baski-03-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-tampon-baski-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-tampon-baski-03-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-ahsap-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-ahsap-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-ahsap-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-golf-topu-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-golf-topu-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-golf-topu-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-kiril-alfabesi-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-kiril-alfabesi-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-kiril-alfabesi-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-kutu-01-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-kutu-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-kutu-01-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-kutu-02-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-kutu-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-kutu-02-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-mantar-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-mantar-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-mantar-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-mukavva-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-mukavva-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-mukavva-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-plastik-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-plastik-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-plastik-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-pleksi-isimlik-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-pleksi-isimlik-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-pleksi-isimlik-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-pleksi-stand-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-pleksi-stand-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-pleksi-stand-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-tablet-01-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-tablet-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-tablet-01-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-tablet-02-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-tablet-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-tablet-02-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-tahta-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-tahta-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-tahta-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-telefon-kapagi-01-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-telefon-kapagi-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-telefon-kapagi-01-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-telefon-kapagi-02-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-telefon-kapagi-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-telefon-kapagi-02-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-telefon-kapagi-03-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-telefon-kapagi-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-telefon-kapagi-03-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-urun-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-urun-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\serigrafi-uzerine-baski-urun-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-matbaa-01-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-matbaa-02-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-matbaa-03-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-matbaa-04-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-matbaa-05-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-matbaa-06-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-promosyon-01-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-promosyon-02-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-promosyon-03-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-promosyon-04-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-promosyon-05-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-seffaf-kart-01-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-seffaf-kart-02-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-serigrafi-01-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-serigrafi-02-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-serigrafi-03-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-serigrafi-04-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-serigrafi-05-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-serigrafi-06-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-sticker-01-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-sticker-02-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-sticker-03-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-sticker-04-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-sticker-05-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-tekstil-01-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\slider-tekstil-02-940x360.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-aluminyum-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-aluminyum-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-aluminyum-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-damla-etiket-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-damla-etiket-02-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-damla-etiket-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-double-sandwich-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-double-sandwich-02-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-double-sandwich-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-double-sandwich-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-emniyet-etiketleri-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-emniyet-etiketleri-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-emniyet-etiketleri-03-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-emniyet-etiketleri-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-emniyet-etiketleri-03-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-emniyet-etiketleri-04-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-fosfor-lumen-01-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-fosfor-lumen-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-fosfor-lumen-01-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-fosfor-lumen-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-fosfor-lumen-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-guvenlik_etiketi_01-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-guvenlik_etiketi_01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-guvenlik_etiketi_01-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-guvenlik_etiketi_02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-hologram-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-hologram-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-hologram-03-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-hologram-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-hologram-03-940x350.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-hologram-04-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-icten-yapistirma-cam-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-icten-yapistirma-cam-02-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-icten-yapistirma-cam-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-icten-yapistirma-cam-02-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-kuse-01-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-kuse-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-kuse-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-metalize-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-metalize-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-metalize-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-metalize-04-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-metalize-04-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-nonperm-removable-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-nonperm-removable-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-nonperm-removable-940x350.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-opak-01-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-opak-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-opak-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-opak-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-opak-04-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-poliuretan-damla-01-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-poliuretan-damla-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-poliuretan-damla-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-rulo-01-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-rulo-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-rulo-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-rulo-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-rulo-04-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-seffaf-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-seffaf-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-seffaf-03-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-seffaf-04-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-seffaf-04-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-seffaf-04-940x350.html" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-seffaf-05-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-static-01-400x400.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-static-01-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-static-01-940x350.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\sticker-static-02-580x482.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\tekstil-etiketi-01-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\tekstil-etiketi-01.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\tekstil-etiketi-02-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\tekstil-etiketi-02.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\tekstil-etiketi-03-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\tekstil-etiketi-03.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\tekstil-etiketi-04-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\tekstil-etiketi-04.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\tekstil-etiketi-05-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\tekstil-etiketi-05.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\tekstil-etiketi-06-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\tekstil-etiketi-06.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\tekstil-etiketi-07-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\tekstil-etiketi-07.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\tekstil-etiketi-08-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\tekstil-etiketi-08.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\tekstil-etiketi-09-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\tekstil-etiketi-09.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\tekstil-etiketi-10-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\tekstil-etiketi-10.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\tekstil-etiketi-11-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\tekstil-etiketi-11.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\tekstil-etiketi-12-390x390.jpg" />
+    <Content Include="Content\wp-content\uploads\2015\06\tekstil-etiketi-12.jpg" />
+    <Content Include="Content\wp-content\uploads\2017\04\karaca-logo-70.png" />
+    <Content Include="Content\wp-content\uploads\2017\04\karaca-logo-80.png" />
+    <Content Include="Content\wp-includes\css\dist\block-library\style.mince52.css" />
+    <Content Include="Content\wp-includes\js\comment-reply.mince52.js" />
+    <Content Include="Content\wp-includes\js\jquery\jquery-migrate.min330a.js" />
+    <Content Include="Content\wp-includes\js\jquery\jquery.color.mine1fc.js" />
+    <Content Include="Content\wp-includes\js\jquery\jqueryb8ff.js" />
+    <Content Include="Content\wp-includes\js\jquery\ui\core.mine899.js" />
+    <Content Include="Content\wp-includes\js\wp-embed.mince52.js" />
+    <Content Include="Content\wp-includes\wlwmanifest.xml" />
+    <Content Include="Content\wp-json\index.html" />
+    <Content Include="Content\ürün etiketleri.JPG" />
+    <Content Include="css\main.css" />
+    <Content Include="css\util.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\font-awesome-4.7.0\css\font-awesome.css" />
+    <Content Include="fonts\font-awesome-4.7.0\css\font-awesome.min.css" />
+    <Content Include="fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\font-awesome-4.7.0\HELP-US-OUT.txt" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\montserrat\OFL.txt" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Images\17da90ef-a952-47c8-a252-a48b64e3f111_slayt_7.png" />
+    <Content Include="Images\1cc096d1-bf0b-45e4-bf82-15f1a303f01c_eti4.jpg" />
+    <Content Include="Images\2310ac7d-971a-4709-97d5-f5f396f7183c_my4.jpg" />
+    <Content Include="Images\26e7d565-2c15-4d1a-a00e-675841e745e8_eti6.jpg" />
+    <Content Include="Images\39a8c3a2-ce1d-4ded-8dde-5700ed821bf6_my23.jpg" />
+    <Content Include="Images\3d24abdd-785c-4ebf-bcc1-c9ee447ce5fc_slayt_6.png" />
+    <Content Include="Images\3fa09d00-e8aa-4012-bd61-759ee3f5a8ba_referanslar 2.png" />
+    <Content Include="Images\4076f296-901c-468e-917f-0a33de78a2f8_referanslar_1.png" />
+    <Content Include="Images\42e16ccf-6fe0-4467-b5d1-8366313e030e_my2.jpg" />
+    <Content Include="Images\6c7f8752-7092-4769-8ed1-f7a2a95cb970_my1.jpg" />
+    <Content Include="Images\7586a885-aa03-4d0c-89ff-cefc3bc03fc9_eti2.jpg" />
+    <Content Include="Images\879870dd-2960-40e2-b2bf-995dece9081a_ambalaj1.jpg" />
+    <Content Include="Images\9fa66feb-69fc-4fb8-8aee-e2538b486dec_eti1.jpg" />
+    <Content Include="Images\be5fbbaa-73b0-49a5-8afd-c7ea8c71f738_slayt_2.png" />
+    <Content Include="Images\dec9158f-8ab4-42f3-b72a-04a9618b725e_amblaj5.jpg" />
+    <Content Include="Images\deneme3.png" />
+    <Content Include="Images\e1362f1c-2c90-434f-b382-dbd46991bf5d_my11.jpg" />
+    <Content Include="Images\e7fca352-d2e2-423f-af0e-d5fe2e083338_eti3.jpg" />
+    <Content Include="Images\e849972a-77d8-4ea2-b0d7-0a3a9e1ba8ed_my3.jpg" />
+    <Content Include="Images\ec54d26f-c5ce-442b-b917-cdfb7e7dd257_amblaj3.jpg" />
+    <Content Include="Images\ed21d196-b91c-4bb7-acff-c09bf5515c41_slayt_1.png" />
+    <Content Include="Images\ed549e83-f552-4479-8e81-d48447f1882c_amblaj2.jpg" />
+    <Content Include="Images\ef3d9fb5-5dbf-447a-b47d-1e8e263c229a_amblaj1.jpg" />
+    <Content Include="Images\icons\favicon.ico" />
+    <Content Include="Images\img-01.png" />
+    <Content Include="Scripts\ai.0.22.9-build00167.js" />
+    <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\wp-json\oembed\1.0\embed06ce" />
+    <Content Include="Content\wp-json\oembed\1.0\embed0726" />
+    <Content Include="Content\wp-json\oembed\1.0\embed0b51.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed0b5c.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed0cbc.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed0d5e.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed11fd.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed1215" />
+    <Content Include="Content\wp-json\oembed\1.0\embed1258.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed15c8.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed1e69" />
+    <Content Include="Content\wp-json\oembed\1.0\embed1e7c" />
+    <Content Include="Content\wp-json\oembed\1.0\embed1ed9.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed2010.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed20a4" />
+    <Content Include="Content\wp-json\oembed\1.0\embed2528" />
+    <Content Include="Content\wp-json\oembed\1.0\embed2556" />
+    <Content Include="Content\wp-json\oembed\1.0\embed25da" />
+    <Content Include="Content\wp-json\oembed\1.0\embed292b.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed29a4.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed2bd7.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed2d53" />
+    <Content Include="Content\wp-json\oembed\1.0\embed3151" />
+    <Content Include="Content\wp-json\oembed\1.0\embed32de" />
+    <Content Include="Content\wp-json\oembed\1.0\embed3366" />
+    <Content Include="Content\wp-json\oembed\1.0\embed3434.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed3759" />
+    <Content Include="Content\wp-json\oembed\1.0\embed394f.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed3f55" />
+    <Content Include="Content\wp-json\oembed\1.0\embed4563" />
+    <Content Include="Content\wp-json\oembed\1.0\embed4943.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed4972" />
+    <Content Include="Content\wp-json\oembed\1.0\embed4a4d" />
+    <Content Include="Content\wp-json\oembed\1.0\embed4a6a" />
+    <Content Include="Content\wp-json\oembed\1.0\embed4cad" />
+    <Content Include="Content\wp-json\oembed\1.0\embed4cce.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed4ce8.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed5381.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed540d" />
+    <Content Include="Content\wp-json\oembed\1.0\embed587c.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed5b41" />
+    <Content Include="Content\wp-json\oembed\1.0\embed677f" />
+    <Content Include="Content\wp-json\oembed\1.0\embed6a7a.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed6c59.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed6cfd.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed6cfe.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed6f8d.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed7022" />
+    <Content Include="Content\wp-json\oembed\1.0\embed75eb.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed7776" />
+    <Content Include="Content\wp-json\oembed\1.0\embed7911.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed79ba" />
+    <Content Include="Content\wp-json\oembed\1.0\embed7a75.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed812f" />
+    <Content Include="Content\wp-json\oembed\1.0\embed877d" />
+    <Content Include="Content\wp-json\oembed\1.0\embed87fa" />
+    <Content Include="Content\wp-json\oembed\1.0\embed88ce.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed8c53" />
+    <Content Include="Content\wp-json\oembed\1.0\embed8d44" />
+    <Content Include="Content\wp-json\oembed\1.0\embed8d49" />
+    <Content Include="Content\wp-json\oembed\1.0\embed8dd3" />
+    <Content Include="Content\wp-json\oembed\1.0\embed9421" />
+    <Content Include="Content\wp-json\oembed\1.0\embed993c.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed9aae.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed9afc.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embed9f4b.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embeda1f3.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embeda25c" />
+    <Content Include="Content\wp-json\oembed\1.0\embeda281" />
+    <Content Include="Content\wp-json\oembed\1.0\embeda5c6" />
+    <Content Include="Content\wp-json\oembed\1.0\embeda8b5.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embeda915.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embedaa73.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embedac92.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embedadb9.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embedb2bb.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embedb489" />
+    <Content Include="Content\wp-json\oembed\1.0\embedb4fe.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embedb9a9" />
+    <Content Include="Content\wp-json\oembed\1.0\embedbaff.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embedbf7a.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embedc037.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embedc05b.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embedc4c3.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embedc5e1.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embedc740" />
+    <Content Include="Content\wp-json\oembed\1.0\embedc76a.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embedc9ab" />
+    <Content Include="Content\wp-json\oembed\1.0\embedcad2" />
+    <Content Include="Content\wp-json\oembed\1.0\embedcb18" />
+    <Content Include="Content\wp-json\oembed\1.0\embedcb6d" />
+    <Content Include="Content\wp-json\oembed\1.0\embedcebd" />
+    <Content Include="Content\wp-json\oembed\1.0\embedd59d" />
+    <Content Include="Content\wp-json\oembed\1.0\embedd7a8" />
+    <Content Include="Content\wp-json\oembed\1.0\embedd860" />
+    <Content Include="Content\wp-json\oembed\1.0\embedd9c5.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embeddb04" />
+    <Content Include="Content\wp-json\oembed\1.0\embede23d" />
+    <Content Include="Content\wp-json\oembed\1.0\embede4b4" />
+    <Content Include="Content\wp-json\oembed\1.0\embede91e" />
+    <Content Include="Content\wp-json\oembed\1.0\embede9c1.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embedea7f" />
+    <Content Include="Content\wp-json\oembed\1.0\embedec33" />
+    <Content Include="Content\wp-json\oembed\1.0\embededa9.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embedef7c" />
+    <Content Include="Content\wp-json\oembed\1.0\embedf0fe.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embedf46a" />
+    <Content Include="Content\wp-json\oembed\1.0\embedf4b2.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embedf700.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embedfd9f.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embedfdb3.json" />
+    <Content Include="Content\wp-json\oembed\1.0\embedffdf.json" />
+    <Content Include="Content\wp-content\plugins\wp-whatsapp-chat\css\fonts\IcoMoon-free.ttf" />
+    <Content Include="fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\font-awesome-4.7.0\fonts\FontAwesome.otf" />
+    <Content Include="fonts\font-awesome-4.7.0\less\animated.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\bordered-pulled.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\core.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\fixed-width.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\font-awesome.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\icons.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\larger.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\list.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\mixins.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\path.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\rotated-flipped.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\screen-reader.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\stacked.less" />
+    <Content Include="fonts\font-awesome-4.7.0\less\variables.less" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\font-awesome.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_animated.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_bordered-pulled.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_core.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_fixed-width.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_icons.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_larger.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_list.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_mixins.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_path.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_rotated-flipped.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_screen-reader.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_stacked.scss" />
+    <Content Include="fonts\font-awesome-4.7.0\scss\_variables.scss" />
+    <Content Include="fonts\montserrat\Montserrat-Black.ttf" />
+    <Content Include="fonts\montserrat\Montserrat-BlackItalic.ttf" />
+    <Content Include="fonts\montserrat\Montserrat-Bold.ttf" />
+    <Content Include="fonts\montserrat\Montserrat-BoldItalic.ttf" />
+    <Content Include="fonts\montserrat\Montserrat-ExtraBold.ttf" />
+    <Content Include="fonts\montserrat\Montserrat-ExtraBoldItalic.ttf" />
+    <Content Include="fonts\montserrat\Montserrat-ExtraLight.ttf" />
+    <Content Include="fonts\montserrat\Montserrat-ExtraLightItalic.ttf" />
+    <Content Include="fonts\montserrat\Montserrat-Italic.ttf" />
+    <Content Include="fonts\montserrat\Montserrat-Light.ttf" />
+    <Content Include="fonts\montserrat\Montserrat-LightItalic.ttf" />
+    <Content Include="fonts\montserrat\Montserrat-Medium.ttf" />
+    <Content Include="fonts\montserrat\Montserrat-MediumItalic.ttf" />
+    <Content Include="fonts\montserrat\Montserrat-Regular.ttf" />
+    <Content Include="fonts\montserrat\Montserrat-SemiBold.ttf" />
+    <Content Include="fonts\montserrat\Montserrat-SemiBoldItalic.ttf" />
+    <Content Include="fonts\montserrat\Montserrat-Thin.ttf" />
+    <Content Include="fonts\montserrat\Montserrat-ThinItalic.ttf" />
+    <Content Include="fonts\poppins\Poppins-Black.ttf" />
+    <Content Include="fonts\poppins\Poppins-BlackItalic.ttf" />
+    <Content Include="fonts\poppins\Poppins-Bold.ttf" />
+    <Content Include="fonts\poppins\Poppins-BoldItalic.ttf" />
+    <Content Include="fonts\poppins\Poppins-ExtraBold.ttf" />
+    <Content Include="fonts\poppins\Poppins-ExtraBoldItalic.ttf" />
+    <Content Include="fonts\poppins\Poppins-ExtraLight.ttf" />
+    <Content Include="fonts\poppins\Poppins-ExtraLightItalic.ttf" />
+    <Content Include="fonts\poppins\Poppins-Italic.ttf" />
+    <Content Include="fonts\poppins\Poppins-Light.ttf" />
+    <Content Include="fonts\poppins\Poppins-LightItalic.ttf" />
+    <Content Include="fonts\poppins\Poppins-Medium.ttf" />
+    <Content Include="fonts\poppins\Poppins-MediumItalic.ttf" />
+    <Content Include="fonts\poppins\Poppins-Regular.ttf" />
+    <Content Include="fonts\poppins\Poppins-SemiBold.ttf" />
+    <Content Include="fonts\poppins\Poppins-SemiBoldItalic.ttf" />
+    <Content Include="fonts\poppins\Poppins-Thin.ttf" />
+    <Content Include="fonts\poppins\Poppins-ThinItalic.ttf" />
+    <None Include="Properties\PublishProfiles\360Ofset.pubxml" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\metisMenu.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\morris-data.js" />
+    <Content Include="Scripts\morris.min.js" />
+    <Content Include="Scripts\PopUp.js" />
+    <Content Include="Scripts\raphael.min.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\sb-admin-2.min.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="vendor\animate\animate.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="vendor\bootstrap\js\popper.js" />
+    <Content Include="vendor\bootstrap\js\popper.min.js" />
+    <Content Include="vendor\bootstrap\js\tooltip.js" />
+    <Content Include="vendor\css-hamburgers\hamburgers.css" />
+    <Content Include="vendor\css-hamburgers\hamburgers.min.css" />
+    <Content Include="vendor\jquery\jquery-3.2.1.min.js" />
+    <Content Include="vendor\select2\select2.css" />
+    <Content Include="vendor\select2\select2.js" />
+    <Content Include="vendor\select2\select2.min.css" />
+    <Content Include="vendor\select2\select2.min.js" />
+    <Content Include="vendor\tilt\tilt.jquery.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Hakkimizda.cshtml" />
+    <Content Include="Views\Home\Refereanslar.cshtml" />
+    <Content Include="Views\Home\MasaustuYayincilik.cshtml" />
+    <Content Include="Views\Home\Ambalaj.cshtml" />
+    <Content Include="Views\Home\Etiket.cshtml" />
+    <Content Include="Views\Home\Promosyon.cshtml" />
+    <Content Include="Views\Shared\_Alayout.cshtml" />
+    <Content Include="Views\Admin\Yonetim.cshtml" />
+    <Content Include="Views\Admin\RefYonetim.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Admin\MasaustuYonetim.cshtml" />
+    <Content Include="Views\Admin\AmbalajYonetim.cshtml" />
+    <Content Include="Views\Admin\StickerYonetim.cshtml" />
+    <Content Include="Views\Admin\PromosyonYonetim.cshtml" />
+    <Content Include="Views\Admin\Ufakresim.cshtml" />
+    <Content Include="Views\Admin\HakkimizdaYonetim.cshtml" />
+    <Content Include="Views\Admin\KullaniciEkle.cshtml" />
+    <Content Include="Views\Admin\KullaniciListesi.cshtml" />
+    <Content Include="vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="vendor\bootstrap\css\bootstrap.min.css.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Images\Web\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="packages.config" />
+    <None Include="Project_Readme.html" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dal\Dal.csproj">
+      <Project>{4c3a99ce-9ae0-4311-ae0f-f45b518bbbcf}</Project>
+      <Name>Dal</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2198</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:2198/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

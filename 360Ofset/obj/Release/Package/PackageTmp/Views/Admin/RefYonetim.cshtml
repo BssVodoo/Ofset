@@ -1,0 +1,46 @@
+﻿@model _360Ofset.Models.RefImagesDB
+
+@{
+    ViewBag.Title = "RefYonetim";
+    Layout = "~/Views/Shared/_Alayout.cshtml";
+}
+
+
+
+<form action="/Admin/ImageRef" method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.RefResim, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-4">
+                <input type="file" name="uploadfile" id="uploadfile" />
+                @Html.ValidationMessageFor(model => model.RefResim, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Kaydet" class="btn btn-success" />
+            </div>
+        </div>
+    </div>
+</form>
+
+
+
+
+    <table class="table" border="1" style="width:400px; height:300px;">
+@foreach (var item in ViewBag.Ref)
+{
+        <tr>
+            <td style="width:188px;">
+                <img src="@item.RefResim" alt="" style="width:400px; height:300px;" />
+            </td>
+            <td style="width:188px;">
+                @Html.ActionLink("Sil", "RefSil", new { @item.ID }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+}
+    </table>

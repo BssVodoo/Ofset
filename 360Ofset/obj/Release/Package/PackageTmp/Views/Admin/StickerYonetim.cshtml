@@ -1,0 +1,88 @@
+﻿@model _360Ofset.Models.StickerDB
+
+@{
+    ViewBag.Title = "StickerYonetim";
+    Layout = "~/Views/Shared/_Alayout.cshtml";
+}
+
+<h2>StickerYonetim</h2>
+
+
+    @Html.AntiForgeryToken()
+    
+    <form action="/Admin/SticUpload" method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.SResim, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-4">
+                <input type="file" name="uploadfile" id="uploadfile" />
+                @Html.ValidationMessageFor(model => model.SResim, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.SBaslik, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-4">
+                @Html.EditorFor(model => model.SBaslik, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.SBaslik, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.SAciklama, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-4">
+                @Html.TextAreaFor(model => model.SAciklama, new { htmlAttributes = new { @class = "form-control", @style = "margin:0px; width:387px; height:69px;" } })
+                @Html.ValidationMessageFor(model => model.SAciklama, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Kaydet" class="btn btn-success" />
+            </div>
+        </div>
+    </div>
+</form>
+
+
+   <table class="table table-striped" style="width:552px; height:100px;">
+    <thead>
+        <tr>
+            <th style="width:188px;">
+                Resim
+            </th>
+            <th style="width:188px;">
+                Resim Başlığı
+            </th>
+
+            <th style="width:188px;">
+                Resim Açıklaması
+            </th>
+            <th style="width:188px;">
+                İşlem
+            </th>
+        </tr>
+    </thead>
+    @foreach (var item in ViewBag.Stic)
+    {
+        <tbody>
+            <tr>
+                <td style="width:188px;">
+                    <img src="@item.SResim" alt="" style="width:100px; height:100px;" />
+                </td>
+                <td style="width:188px;">
+                    <div class="gdl-slider-title">@item.SBaslik</div>
+                </td>
+                <td style="width:188px;">
+                    @item.SAciklama
+                </td>
+                <td style="width:188px;">
+                    @Html.ActionLink("Sil", "SticSil", new { @item.ID }, new { @class = "btn btn-danger" })
+                </td>
+            </tr>
+        </tbody>
+    }
+</table>
